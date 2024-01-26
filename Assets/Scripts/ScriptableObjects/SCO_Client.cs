@@ -9,7 +9,7 @@ public class SCO_Client : ScriptableObject
     [TextArea]public List<Dialog> exitTxtOK = new List<Dialog>();
     [TextArea]public List<Dialog> exitTxtNOK = new List<Dialog>();
 
-    public Sprite spritOK, spriteNOK;
+    public Sprite spriteOK, spriteNOK;
     public Vector2 reputationMinMax;
 
     public List<SCO_Recipe> recipes = new List<SCO_Recipe>();

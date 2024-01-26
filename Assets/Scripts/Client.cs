@@ -9,11 +9,11 @@ public class Client : MonoBehaviour
 
     private string name;
 
-    [TextArea] public List<string> initialTxt;
-    [TextArea] public List<string> exitTxtOK;
-    [TextArea] public List<string> exitTxtNOK;
+    [TextArea] public List<Dialog> initialTxt;
+    [TextArea] public List<Dialog> exitTxtOK;
+    [TextArea] public List<Dialog> exitTxtNOK;
 
-    Sprite spritOK, spriteNOK;
+    Sprite spriteOK, spriteNOK;
     Vector2 reputationMinMax;
 
     List<SCO_Recipe> recipes;
