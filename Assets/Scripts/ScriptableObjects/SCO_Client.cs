@@ -4,12 +4,12 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Client", menuName = "ScriptableObject/Client")]
 public class SCO_Client : ScriptableObject
 {
-    public string clientName;
-    [TextArea]public List<Dialog> initialTxt = new List<Dialog>();
-    [TextArea]public List<Dialog> exitTxtOK = new List<Dialog>();
-    [TextArea]public List<Dialog> exitTxtNOK = new List<Dialog>();
+    public string name;
+    public List<Dialog> initialTxt = new List<Dialog>();
+    public List<Dialog> exitTxtOK = new List<Dialog>();
+    public List<Dialog> exitTxtNOK = new List<Dialog>();
 
-    public Sprite spritOK, spriteNOK;
+    public Sprite spriteOK, spriteNOK;
     public Vector2 reputationMinMax;
 
     public List<SCO_Recipe> recipes = new List<SCO_Recipe>();
@@ -18,5 +18,5 @@ public class SCO_Client : ScriptableObject
 [System.Serializable]
 public class Dialog
 {
-    public string txt;
+    [TextArea] public string txt;
 }
