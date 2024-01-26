@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class LoopManager : MonoBehaviour
@@ -13,6 +12,12 @@ public class LoopManager : MonoBehaviour
     public int ingredient1Count = 0, ingredient2Count = 0, ingredient3Count = 0, ingredient4Count = 0, ingredient5Count = 0, ingredient6Count = 0;
 
     public int totalIngredients = 0;
+
+    private void Awake()
+    {
+        SetClient();
+        print(currentClient.clientName);
+    }
 
     public void SetClient()
     {
@@ -37,23 +42,41 @@ public class LoopManager : MonoBehaviour
 
     public void CraftRecipe()
     {
-        print("fhuyhsd");
         for(int i = 0; i < recipes.Count; i++)
         {
             if (IsValidIngredient(recipes[i].ingredient1, ingredient1Count) 
                 && IsValidIngredient(recipes[i].ingredient2, ingredient2Count)
-                    && IsValidIngredient(recipes[i].ingredient3, ingredient3Count)
-                        && IsValidIngredient(recipes[i].ingredient4, ingredient4Count)
-                            && IsValidIngredient(recipes[i].ingredient5, ingredient5Count)
-                                && IsValidIngredient(recipes[i].ingredient6, ingredient6Count))   {
-                print(recipes[i].name);
-            }           
+                && IsValidIngredient(recipes[i].ingredient3, ingredient3Count)
+                && IsValidIngredient(recipes[i].ingredient4, ingredient4Count)
+                && IsValidIngredient(recipes[i].ingredient5, ingredient5Count)
+                && IsValidIngredient(recipes[i].ingredient6, ingredient6Count))
+            {
+                print("Recipe Work");
+                for(int n = 0; n < currentClient.recipes.Count; n++)
+                {
+                    if (currentClient.recipes[n] == recipes[i])
+                    {
+                        print("Client Work");
+                    }
+                    else
+                    {
+                        print("Client Fail");
+                    }
+                }
+            }
+            else
+            {
+                print("Recipe Fail");
+            }
         }
     }
 
     public bool IsValidIngredient(Vector2 recipeIngredient,int currentIngredient)
     {
-        if (recipeIngredient.y <= currentIngredient && recipeIngredient.x >= currentIngredient) return true;
+        if (recipeIngredient.x <= currentIngredient && recipeIngredient.y >= currentIngredient)
+        {
+            return true;
+        }
         return false;
     }
     //gameplayphase()
@@ -68,7 +91,10 @@ public class LoopManager : MonoBehaviour
 
         for (int i = 0; i < clients.Count; i++)
         {
-            if (PlayerReputation.Instance.HasValideReputation(clients[i].reputationMinMax)) clientSelected.Add(clients[i]);
+            if (PlayerReputation.Instance.HasValideReputation(clients[i].reputationMinMax))
+            {
+                clientSelected.Add(clients[i]);
+            }
         }
 
         return clientSelected[Random.Range(0, clientSelected.Count)];

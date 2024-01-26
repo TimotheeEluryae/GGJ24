@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerReputation : MonoBehaviour
 {
-    public int reputation;
+    public int reputation = 5;
 
     public static PlayerReputation Instance;
 
@@ -24,7 +22,11 @@ public class PlayerReputation : MonoBehaviour
     
     public bool HasValideReputation(Vector2 minMaxReputationRequire)
     {
-        if(reputation >= minMaxReputationRequire.x && reputation <= minMaxReputationRequire.y) return true;
+        if (reputation >= minMaxReputationRequire.x && reputation <= minMaxReputationRequire.y)
+        {
+            print("HasValidReputation");
+            return true;
+        }
         else return false;
     }
 }
