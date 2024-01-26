@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
@@ -7,16 +6,16 @@ public class Client : MonoBehaviour
 {
     public SCO_Client clientParameters;
 
-    private string name;
+    private string clientName;
 
     [TextArea] public List<Dialog> initialTxt;
     [TextArea] public List<Dialog> exitTxtOK;
     [TextArea] public List<Dialog> exitTxtNOK;
 
     Sprite spriteOK, spriteNOK;
-    Vector2 reputationMinMax;
+    public Vector2 reputationMinMax;
 
-    List<SCO_Recipe> recipes;
+    public List<SCO_Recipe> recipes;
 
     public Vector2 positionStart;
     public Vector2 positionIn;
@@ -24,7 +23,7 @@ public class Client : MonoBehaviour
 
     public void Start()
     {
-        name = clientParameters.name;
+        clientName = clientParameters.clientName;
 
         initialTxt = clientParameters.initialTxt;
         exitTxtOK = clientParameters.exitTxtOK;

@@ -24,7 +24,6 @@ public class PlayerReputation : MonoBehaviour
     {
         if (reputation >= minMaxReputationRequire.x && reputation <= minMaxReputationRequire.y)
         {
-            print("HasValidReputation");
             return true;
         }
         else return false;

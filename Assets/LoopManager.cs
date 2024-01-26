@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class LoopManager : MonoBehaviour
 {
-    public List<SCO_Client> clients = new List<SCO_Client>();
+    public List<GameObject> clients = new List<GameObject>();
     public List<SCO_Recipe> recipes = new List<SCO_Recipe>();
-    SCO_Client currentClient;
+    GameObject currentClient;
 
     int maxIngredients = 10;
 
@@ -16,7 +16,18 @@ public class LoopManager : MonoBehaviour
     private void Awake()
     {
         SetClient();
-        print(currentClient.clientName);
+    }
+
+    public GameObject SelectClient()
+    {
+        GameObject clientSelected = clients[Random.Range(0, clients.Count)];
+
+        while (!clientSelected.GetComponent<Client>().CanEnterTheShop())
+        {
+            clientSelected = clients[Random.Range(0, clients.Count)];
+        }
+
+        return clientSelected;
     }
 
     public void SetClient()
@@ -52,9 +63,9 @@ public class LoopManager : MonoBehaviour
                 && IsValidIngredient(recipes[i].ingredient6, ingredient6Count))
             {
                 print("Recipe Work");
-                for(int n = 0; n < currentClient.recipes.Count; n++)
+                for(int n = 0; n < currentClient.GetComponent<Client>().recipes.Count; n++)
                 {
-                    if (currentClient.recipes[n] == recipes[i])
+                    if (currentClient.GetComponent<Client>().recipes[n] == recipes[i])
                     {
                         print("Client Work");
                     }
@@ -78,25 +89,5 @@ public class LoopManager : MonoBehaviour
             return true;
         }
         return false;
-    }
-    //gameplayphase()
-    //{
-    //    // le joueur doit faire une recette à partir des indications du client
-    //    // le joueur fais ses mélanges, puis clic sur le bouton "Mélanger" pour valider la recette, et on passe à la suite
-    //    // Verification si la recette du joueur correspond à la recette du client
-    //}
-    public SCO_Client SelectClient()
-    {
-        List<SCO_Client> clientSelected = new List<SCO_Client>();
-
-        for (int i = 0; i < clients.Count; i++)
-        {
-            if (PlayerReputation.Instance.HasValideReputation(clients[i].reputationMinMax))
-            {
-                clientSelected.Add(clients[i]);
-            }
-        }
-
-        return clientSelected[Random.Range(0, clientSelected.Count)];
     }
 }
