@@ -5,9 +5,9 @@ using UnityEngine;
 public class SCO_Client : ScriptableObject
 {
     public string name;
-    [TextArea]public List<Dialog> initialTxt = new List<Dialog>();
-    [TextArea]public List<Dialog> exitTxtOK = new List<Dialog>();
-    [TextArea]public List<Dialog> exitTxtNOK = new List<Dialog>();
+    public List<Dialog> initialTxt = new List<Dialog>();
+    public List<Dialog> exitTxtOK = new List<Dialog>();
+    public List<Dialog> exitTxtNOK = new List<Dialog>();
 
     public Sprite spriteOK, spriteNOK;
     public Vector2 reputationMinMax;
@@ -18,5 +18,5 @@ public class SCO_Client : ScriptableObject
 [System.Serializable]
 public class Dialog
 {
-    public string txt;
+    [TextArea] public string txt;
 }

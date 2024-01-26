@@ -18,9 +18,9 @@ public class Client : MonoBehaviour
 
     List<SCO_Recipe> recipes;
 
-    public Vector3 positionStart;
-    public Vector3 positionIn;
-    public Vector3 positionEnd;
+    public Vector2 positionStart;
+    public Vector2 positionIn;
+    public Vector2 positionEnd;
 
     public void Start()
     {
@@ -40,14 +40,15 @@ public class Client : MonoBehaviour
         transform.position = positionStart;
     }
 
-    public void Enter()
+    public void Enter(float moveTime)
     {
-        transform.DOMove(positionIn, 2);
+        transform.DOMove(positionIn, moveTime);
     }
 
-    public void Exit()
+    // Appelé par le bouton Bake!
+    public void Exit(float moveTime)
     {
-        transform.DOMove(positionEnd, 2);
+        transform.DOMove(positionEnd, moveTime);        
     }
 
 }
