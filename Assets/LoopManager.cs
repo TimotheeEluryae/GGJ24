@@ -6,6 +6,7 @@ using UnityEngine;
 public class LoopManager : MonoBehaviour
 {
     public List<SCO_Client> clients = new List<SCO_Client>();
+    public List<SCO_Recipe> recipes = new List<SCO_Recipe>();
     SCO_Client currentClient;
 
     public SCO_Client SelectClient()
