@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c018f450a78f5fa43921ae156ec08fd9, type: 3}
   m_Name: RecipeTest
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  ingredient1: {x: 0, y: 0}
-  ingredient2: {x: 0, y: 0}
-  ingredient3: {x: 0, y: 0}
-  ingredient4: {x: 0, y: 0}
-  ingredient5: {x: 0, y: 0}
-  ingredient6: {x: 0, y: 0}
+  recipeName: pain arabe
+  description: dexcription test blablabla
+  recipeSprite: {fileID: -8983144107253114582, guid: b01fde7edd073154280c601d87fdd648, type: 3}
+  egg: {x: 0, y: 0}
+  flour: {x: 0, y: 0}
+  butter: {x: 0, y: 0}
+  sugaryThing: {x: 0, y: 0}
+  sugar: {x: 0, y: 0}
+  yeast: {x: 0, y: 0}
