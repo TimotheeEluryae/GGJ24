@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager;
 using UnityEngine;
+using TMPro;
 
 public class LoopManager : MonoBehaviour
 {
-    public List<GameObject> clientPrefabs = new List<GameObject>();
+    public List<GameObject> everyClientPrefabs = new List<GameObject>();
     List<GameObject> clients = new List<GameObject>();
     GameObject currentClient;
+
+    public TMP_Text ingredientCountTxt;
 
     public Transform clientContent;
 
@@ -30,11 +32,12 @@ public class LoopManager : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < clientPrefabs.Count; i++)
+        for (int i = 0; i < everyClientPrefabs.Count; i++)
         {
-            if (clientPrefabs[i] != null)
+            if (everyClientPrefabs[i] != null)
             {
-                clients.Add(Instantiate(clientPrefabs[i], clientContent));
+                GameObject tmp = Instantiate(everyClientPrefabs[i], clientContent);
+                clients.Add(tmp);
             }
         }
 
@@ -44,22 +47,27 @@ public class LoopManager : MonoBehaviour
     IEnumerator StartClientInteraction()
     {
         currentClient = SelectClient();
+        print("Client selected");
+
         canBake = false;
 
         Client clientSC = currentClient.GetComponent<Client>();
-        clientSC.Enter(2);
+        clientSC.Enter();
         clientState = ClientState.Enter;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(2.5f);
 
         DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.initialTxt);
         clientState = ClientState.FirstSpeak;
         isSpeaking = true;
+
+        totalIngredients = 0;
+        ingredientCountTxt.text = totalIngredients + "/10";
     }
 
     public GameObject SelectClient()
     {
-        List<GameObject> clientSelected = new List<GameObject> ();
+        List<GameObject> clientSelected = new List<GameObject>();
 
         for (int i = 0; i < clients.Count; i++)
         {
@@ -80,7 +88,7 @@ public class LoopManager : MonoBehaviour
         if (isSpeaking) return;
 
         Debug.Log("trying to add ingredients");
-        if (totalIngredients <= maxIngredients)
+        if (totalIngredients < maxIngredients)
         {
             switch (ingredient)
             {
@@ -92,6 +100,7 @@ public class LoopManager : MonoBehaviour
                 case Ingredient.Yeast: yeastCount += 1; break;
             }
             totalIngredients += 1;
+            ingredientCountTxt.text = totalIngredients + "/10";
             Debug.Log("Ingredient added");
         }
     }
@@ -148,10 +157,10 @@ public class LoopManager : MonoBehaviour
             case ClientState.LastSpeak:
                 clientState = ClientState.Leaving;
 
-                if(isHappy) currentClient.GetComponent<Client>().ExitHappy(2);
-                else currentClient.GetComponent<Client>().ExitSad(2);
+                if(isHappy) currentClient.GetComponent<Client>().ExitHappy();
+                else currentClient.GetComponent<Client>().ExitSad();
 
-                StartCoroutine(WaitForNewClient(2));
+                StartCoroutine(WaitForNewClient(2.5f));
                 break;
 
         }

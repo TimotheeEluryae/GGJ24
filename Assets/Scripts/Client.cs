@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using DG.Tweening;
 using UnityEditor.U2D;
+using System.Collections;
 
 public class Client : MonoBehaviour
 {
@@ -9,33 +11,31 @@ public class Client : MonoBehaviour
     public List<Dialog> initialTxt = new List<Dialog>();
     public List<Dialog> exitTxtOK = new List<Dialog>();
     public List<Dialog> exitTxtNOK = new List<Dialog>();
-
+    
     public Sprite spriteOK, spriteNOK;
 
     public Vector2 reputationMinMax;
 
     public List<SCO_Recipe> recipes;
 
-    public Vector2 positionStart;
-    public Vector2 positionIn;
-    public Vector2 positionEnd;
+    Animator animator;
+    Image graphics;
 
-    public SpriteRenderer graphics;
-
-    private void Start()
+    private void Awake()
     {
-        transform.position = positionStart;
+        animator = GetComponent<Animator>();
+        graphics = GetComponent<Image>();
     }
 
-    public void Enter(float moveTime)
+    public void Enter()
     {
-        transform.DOMove(positionIn, moveTime);
+        animator.SetBool("IsEnter", true);
     }
 
-    public void Exit(float moveTime)
+    public void Exit()
     {
-        transform.DOMove(positionEnd, moveTime).OnComplete(()=> { transform.position = positionStart; });
-        
+        animator.SetBool("IsEnter", false);
+
         // WARNING ! Reinitialize the GameObject to it's first position.
     }
 
@@ -71,14 +71,14 @@ public class Client : MonoBehaviour
         return isHappy;
     }
 
-    public void ExitHappy(float moveTime)
+    public void ExitHappy()
     {
         //graphics.sprite = spriteOK;
-        Exit(moveTime);
+        Exit();
     }
-    public void ExitSad(float moveTime)
+    public void ExitSad()
     {
-        Exit(moveTime);
+        Exit();
         //graphics.sprite = spriteNOK;
     }
 }
