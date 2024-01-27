@@ -53,9 +53,56 @@ PrefabInstance:
       value: AmongUs
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: clientName
+      value: Among us
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientParameters
       value: 
       objectReference: {fileID: 11400000, guid: 5b4d9592c58f23542864883cd2e88130, type: 2}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: recipes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtOK.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'recipes.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 1af563a2cefe15747a82d76bc4116053, type: 2}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtOK.Array.data[0].txt
+      value: Super c'est bien ce que je veux
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[0].txt
+      value: Slt c'est moi shoupi
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[1].txt
+      value: "Le Lorem Ipsum est simplement du faux texte employ\xE9 dans la composition
+        et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard
+        de l'imprimerie depuis les ann\xE9es 1500, quand un imprimeur anonyme assembla
+        ensemble des morceaux de texte pour r\xE9aliser un livre sp\xE9cimen de polices
+        de texte. Il n'a pas fait que survivre cinq si\xE8cles, mais s'est aussi
+        adapt\xE9 \xE0 la bureautique informatique, sans que son contenu n'en soit
+        modifi\xE9. Il a \xE9t\xE9 popularis\xE9 dans les ann\xE9es 1960 gr\xE2ce
+        \xE0 la vente de feuilles Letraset contenant des p"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[2].txt
+      value: bjklehqilfgvkuqgfvqeuk<ysgbc,hgraukqygvkqe;<
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

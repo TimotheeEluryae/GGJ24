@@ -18,7 +18,6 @@ public class PlayerReputation : MonoBehaviour
         {
             instance = this;
         }
-        DontDestroyOnLoad(this.gameObject);
     }
 
     public void AddReputation(int reputationToAdd)

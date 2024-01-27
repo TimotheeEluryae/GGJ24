@@ -53,9 +53,41 @@ PrefabInstance:
       value: TheRock
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: clientName
+      value: The rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientParameters
       value: 
       objectReference: {fileID: 11400000, guid: 767b95e097f70d447b5bbe0bec21f6f0, type: 2}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtOK.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtOK.Array.data[0].txt
+      value: Super c'est bien ce que je veux
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[0].txt
+      value: blalbalvlz je suis the rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[1].txt
+      value: Et je suis fort
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

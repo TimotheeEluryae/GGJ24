@@ -46,10 +46,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b39da3346316e49bcd506415110f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clientParameters: {fileID: 0}
+  clientName: 
+  initialTxt: []
+  exitTxtOK: []
+  exitTxtNOK:
+  - txt: Nan je voulais pas ca
+  spriteOK: {fileID: 0}
+  spriteNOK: {fileID: 0}
+  reputationMinMax: {x: 0, y: 0}
+  recipes: []
   positionStart: {x: -15, y: 0}
   positionIn: {x: 0, y: 0}
   positionEnd: {x: 15, y: 0}
+  graphics: {fileID: 7103976627763963435}
 --- !u!95 &3109688029821368432
 Animator:
   serializedVersion: 7

@@ -5,39 +5,25 @@ using UnityEditor.U2D;
 
 public class Client : MonoBehaviour
 {
-    public SCO_Client clientParameters;
+    public string clientName;
+    public List<Dialog> initialTxt = new List<Dialog>();
+    public List<Dialog> exitTxtOK = new List<Dialog>();
+    public List<Dialog> exitTxtNOK = new List<Dialog>();
 
-    [System.NonSerialized] public string clientName;
+    public Sprite spriteOK, spriteNOK;
 
-    [TextArea] List<Dialog> initialTxt;
-    [TextArea] List<Dialog> exitTxtOK;
-    [TextArea] List<Dialog> exitTxtNOK;
+    public Vector2 reputationMinMax;
 
-    Sprite spriteOK, spriteNOK;
+    public List<SCO_Recipe> recipes;
 
-    [System.NonSerialized] public Vector2 reputationMinMax;
+    public Vector2 positionStart;
+    public Vector2 positionIn;
+    public Vector2 positionEnd;
 
-    [System.NonSerialized] public List<SCO_Recipe> recipes;
+    public SpriteRenderer graphics;
 
-    [SerializeField] Vector2 positionStart;
-    [SerializeField] Vector2 positionIn;
-    [SerializeField] Vector2 positionEnd;
-
-    public void Awake()
+    private void Start()
     {
-        clientName = clientParameters.clientName;
-
-        initialTxt = clientParameters.initialTxt;
-        exitTxtOK = clientParameters.exitTxtOK;
-        exitTxtNOK = clientParameters.exitTxtNOK;
-
-        spriteOK = clientParameters.spriteOK;
-        spriteNOK = clientParameters.spriteNOK;
-
-        reputationMinMax = clientParameters.reputationMinMax;
-
-        recipes = clientParameters.recipes;
-
         transform.position = positionStart;
     }
 
@@ -48,7 +34,7 @@ public class Client : MonoBehaviour
 
     public void Exit(float moveTime)
     {
-        transform.DOMove(positionEnd, moveTime);
+        transform.DOMove(positionEnd, moveTime).OnComplete(()=> { transform.position = positionStart; });
         
         // WARNING ! Reinitialize the GameObject to it's first position.
     }
@@ -87,13 +73,26 @@ public class Client : MonoBehaviour
 
     public void ExitHappy(float moveTime)
     {
-        //transform.GetComponent<SpriteRenderer>().sprite = spriteOK;
+        //graphics.sprite = spriteOK;
         Exit(moveTime);
     }
-
     public void ExitSad(float moveTime)
     {
         Exit(moveTime);
-        //transform.GetComponent<SpriteRenderer>().sprite = spriteNOK;
+        //graphics.sprite = spriteNOK;
     }
+}
+[System.Serializable]
+public class Dialog
+{
+    [TextArea] public string txt;
+}
+
+public enum ClientState
+{
+    Enter,
+    FirstSpeak,
+    Waiting,
+    LastSpeak,
+    Leaving
 }
