@@ -31,7 +31,7 @@ public class AudioManager : MonoBehaviour
 
     private void Update()
     {
-        if (!audioSource.isPlaying)
+        if (!audioSource.isPlaying && playlist.Length != 0)
         {
             currentMusicIndex = (currentMusicIndex + 1) % playlist.Length;
             audioSource.clip = playlist[currentMusicIndex];
