@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-using UnityEditor.U2D;
 
 public class Client : MonoBehaviour
 {

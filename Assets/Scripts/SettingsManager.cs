@@ -4,13 +4,19 @@ using UnityEngine.Audio;
 public class UIManager : MonoBehaviour
 {
     public GameObject settingsPanel;
+    public GameObject recipePanel;
+
+    public Animator recipePanelAnimator;
+
     private bool settingsIsOpen = false;
+    private bool recipeIsOpen = false;
 
     public AudioMixer audioMixer;
 
     private void Awake()
     {
         settingsPanel.SetActive(false);
+        print(recipePanel.transform.position.x);
     }
     private void Update()
     {
@@ -35,9 +41,13 @@ public class UIManager : MonoBehaviour
     {
         audioMixer.SetFloat("vfx", vfx);
     }
-
     public void SetFullScreen(bool isFullScreen)
     {
         Screen.fullScreen = isFullScreen;
+    }
+    public void OpenCloseRecipe()
+    {
+        recipeIsOpen = !recipeIsOpen;
+        recipePanelAnimator.SetBool("IsOpen", recipeIsOpen);
     }
 }
