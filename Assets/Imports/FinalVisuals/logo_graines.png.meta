@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: ff535c5c765293948acf47fb7c4027fd
+guid: 46166ed7ddd82ff4a93d8493a2b35011
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3671805706139919553
-    second: layoutTmp_0
+      213: 8143320486644988349
+    second: logo_graines_0
+  - first:
+      213: 8501062841094251568
+    second: logo_graines_1
+  - first:
+      213: -3156493340566953557
+    second: logo_graines_2
+  - first:
+      213: -7623977955417544295
+    second: logo_graines_3
+  - first:
+      213: -4177124543272506481
+    second: logo_graines_4
+  - first:
+      213: -55147681391883164
+    second: logo_graines_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: layoutTmp_0
+      name: logo_graines_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1109
-        height: 628
+        x: 377
+        y: 664
+        width: 2426
+        height: 1587
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +139,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c4e8bee5dfd4f230800000000000000
-      internalID: 3671805706139919553
+      spriteID: db9b2a266d2e20170800000000000000
+      internalID: 8143320486644988349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_graines_1
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 644
+        width: 135
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03422b80d97d9f570800000000000000
+      internalID: 8501062841094251568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_graines_2
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 646
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1ee93d702e134d0800000000000000
+      internalID: -3156493340566953557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_graines_3
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 650
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999adef6170323690800000000000000
+      internalID: -7623977955417544295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_graines_4
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 635
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b2da7fb5fd706c0800000000000000
+      internalID: -4177124543272506481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_graines_5
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 618
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c4378d9731c3ff0800000000000000
+      internalID: -55147681391883164
       vertices: []
       indices: 
       edges: []
@@ -140,8 +260,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      layoutTmp_0: 3671805706139919553
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

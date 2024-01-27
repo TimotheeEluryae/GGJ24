@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ff535c5c765293948acf47fb7c4027fd
+guid: 527bfd47ccbb2bc4bbf305fd440269df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3671805706139919553
-    second: layoutTmp_0
+      213: -1354325009986449776
+    second: "bouton_ingr\xE9dient_2_0"
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,22 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: layoutTmp_0
+      name: "bouton_ingr\xE9dient_2_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1109
-        height: 628
+        x: 1482
+        y: 163
+        width: 185
+        height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c4e8bee5dfd4f230800000000000000
-      internalID: 3671805706139919553
+      spriteID: 09e84553498743de0800000000000000
+      internalID: -1354325009986449776
       vertices: []
       indices: 
       edges: []
@@ -133,7 +133,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 250359b70a3c67d46b059c79443f0c81
     internalID: 0
     vertices: []
     indices: 
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      layoutTmp_0: 3671805706139919553
+      "bouton_ingr\xE9dient_2_0": -1354325009986449776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

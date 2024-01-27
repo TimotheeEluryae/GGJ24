@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ff535c5c765293948acf47fb7c4027fd
+guid: 22be3a04d08cba64eb9f822ecb25f721
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3671805706139919553
-    second: layoutTmp_0
+      213: -5226518663781047789
+    second: "bouton_ingr\xE9dient_1_0"
+  - first:
+      213: -8176977180735878063
+    second: "bouton_ingr\xE9dient_1_1"
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,22 +113,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: layoutTmp_0
+      name: "bouton_ingr\xE9dient_1_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1109
-        height: 628
+        x: 1280
+        y: 159
+        width: 190
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c4e8bee5dfd4f230800000000000000
-      internalID: 3671805706139919553
+      spriteID: 312a16177fca777b0800000000000000
+      internalID: -5226518663781047789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bouton_ingr\xE9dient_1_2"
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 456
+        width: 343
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab34f9bd4b80b14987c7d7f508cf82d
+      internalID: -1933298471
       vertices: []
       indices: 
       edges: []
@@ -133,7 +157,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -141,7 +165,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      layoutTmp_0: 3671805706139919553
+      "bouton_ingr\xE9dient_1_0": -5226518663781047789
+      "bouton_ingr\xE9dient_1_1": -8176977180735878063
+      "bouton_ingr\xE9dient_1_2": -1933298471
+      "bouton_ingr\xE9dient_1_3": -551694876
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
