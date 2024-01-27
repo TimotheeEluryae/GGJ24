@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UIElements;
 
 public class UIManager : MonoBehaviour
 {
@@ -31,15 +32,33 @@ public class UIManager : MonoBehaviour
 
     public void SetMasterVolume(float volume)
     {
-        audioMixer.SetFloat("volume", volume);
+        float dB;
+
+        if (volume != 0)
+            dB = 20.0f * Mathf.Log10(volume);
+        else
+            dB = -144.0f;
+        audioMixer.SetFloat("volume", dB);
     }
     public void SetMusicVolume(float music)
     {
-        audioMixer.SetFloat("music", music);
+        float dB;
+
+        if (music != 0)
+            dB = 20.0f * Mathf.Log10(music);
+        else
+            dB = -144.0f;
+        audioMixer.SetFloat("music", dB);
     }
     public void SetVFXVolume(float vfx)
     {
-        audioMixer.SetFloat("vfx", vfx);
+        float dB;
+
+        if (vfx != 0)
+            dB = 20.0f * Mathf.Log10(vfx);
+        else
+            dB = -144.0f;
+        audioMixer.SetFloat("vfx", dB);
     }
     public void SetFullScreen(bool isFullScreen)
     {

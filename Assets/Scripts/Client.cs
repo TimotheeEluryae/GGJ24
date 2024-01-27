@@ -14,6 +14,8 @@ public class Client : MonoBehaviour
     
     public Sprite spriteOK, spriteNOK;
 
+    public int reputationToGive;
+
     public Vector2 reputationMinMax;
 
     public List<SCO_Recipe> recipes;

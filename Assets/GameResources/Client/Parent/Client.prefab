@@ -58,9 +58,9 @@ MonoBehaviour:
   - txt: Nan je voulais pas ca
   spriteOK: {fileID: 0}
   spriteNOK: {fileID: 0}
+  reputationToGive: 5
   reputationMinMax: {x: 0, y: 0}
   recipes: []
-  positionStart: {x: -2000, y: 0}
 --- !u!95 &3109688029821368432
 Animator:
   serializedVersion: 7

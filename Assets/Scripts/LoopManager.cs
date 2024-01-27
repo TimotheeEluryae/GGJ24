@@ -47,6 +47,7 @@ public class LoopManager : MonoBehaviour
     IEnumerator StartClientInteraction()
     {
         currentClient = SelectClient();
+        currentClient.SetActive(true);
         print("Client selected");
 
         canBake = false;
@@ -71,6 +72,8 @@ public class LoopManager : MonoBehaviour
 
         for (int i = 0; i < clients.Count; i++)
         {
+            clients[i].SetActive(false);
+
             if (clients[i].GetComponent<Client>().CanEnterTheShop()) clientSelected.Add(clients[i]);
         }
 
@@ -157,10 +160,20 @@ public class LoopManager : MonoBehaviour
             case ClientState.LastSpeak:
                 clientState = ClientState.Leaving;
 
-                if(isHappy) currentClient.GetComponent<Client>().ExitHappy();
-                else currentClient.GetComponent<Client>().ExitSad();
+                Client clientSC = currentClient.GetComponent<Client>();
 
-                StartCoroutine(WaitForNewClient(2.5f));
+                if (isHappy)
+                {
+                    PlayerReputation.Instance.AddReputation(clientSC.reputationToGive);
+                    clientSC.ExitHappy();
+                }
+                else
+                {
+                    PlayerReputation.Instance.RemoveReputation(clientSC.reputationToGive);
+                    clientSC.ExitSad();
+                }
+
+                StartCoroutine(WaitForNewClient(0.8f));
                 break;
 
         }
