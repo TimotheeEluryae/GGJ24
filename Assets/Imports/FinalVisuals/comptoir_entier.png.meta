@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      comptoir_entier_0: 9122572280591805052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

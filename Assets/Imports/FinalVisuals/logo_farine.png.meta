@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo_farine_0: 1904863053704566829
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

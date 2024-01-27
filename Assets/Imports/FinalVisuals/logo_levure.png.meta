@@ -164,7 +164,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo_levure_0: -911940833110135325
+      logo_levure_1: -4155336287732983872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

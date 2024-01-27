@@ -164,7 +164,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo_oeuf_0: 7460957441649519409
+      logo_oeuf_1: 4085733588116494511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

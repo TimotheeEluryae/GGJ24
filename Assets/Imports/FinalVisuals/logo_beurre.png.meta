@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo_beurre_0: 5210719564466316632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

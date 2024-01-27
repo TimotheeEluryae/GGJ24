@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo_confiseries_0: 3002314344608677562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
