@@ -1,8 +1,11 @@
+using TMPro;
 using UnityEngine;
 
 public class PlayerReputation : MonoBehaviour
 {
     public int reputation = 5;
+
+    public TMP_Text reputationTxt;
 
     private static PlayerReputation instance = null;
     public static PlayerReputation Instance => instance;
@@ -20,15 +23,22 @@ public class PlayerReputation : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        reputationTxt.text = "Reputation : " + reputation;
+    }
+
     public void AddReputation(int reputationToAdd)
     {
         reputation += reputationToAdd;
+        reputationTxt.text = "Reputation : " + reputation;
     }
     public void RemoveReputation(int reputationToRemove)
     {
         reputation -= reputationToRemove;
+        reputationTxt.text = "Reputation : " + reputation;
     }
-    
+
     // Moved to the function CanEnterTheShop directly on the Client class.
     /*
     public bool HasValideReputation(Vector2 minMaxReputationRequire)
