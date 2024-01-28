@@ -111,7 +111,7 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: 'recipes.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 1af563a2cefe15747a82d76bc4116053, type: 2}
+      objectReference: {fileID: 11400000, guid: 1ed5ecf13b23d5046bc8003b04190a8d, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
       value: "Merci\u2026 J\u2019y retourne, je passe par la ven\u2026 Le couloir\u2026 "

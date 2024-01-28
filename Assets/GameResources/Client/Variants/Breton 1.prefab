@@ -86,7 +86,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: recipes.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.x
@@ -111,7 +111,7 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: 'recipes.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 204a54b82e58d4740ac3a44e846a4a5a, type: 2}
+      objectReference: {fileID: 11400000, guid: ffdef9399c70b7a46a4e702505b0f3ad, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
       value: "Alors \xE7a, \xE7a c\u2019est super, \xE7a c\u2019est parfait ! "
