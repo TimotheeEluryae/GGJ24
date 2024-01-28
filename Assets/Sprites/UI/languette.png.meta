@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2d88f4feecdd3774494f551b11afbe62
+guid: dc7f6dbf2e959444dae4a0ffcf8aaef3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7110421316033569256
-    second: slider_1_0
+      213: -6981588570333741781
+    second: languette_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,22 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slider_1_0
+      name: languette_0
       rect:
         serializedVersion: 2
-        x: 905
-        y: 463
-        width: 229
-        height: 51
+        x: 404
+        y: 385
+        width: 159
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 48, y: 25, z: 29, w: 24}
+      border: {x: 77, y: 0, z: 46, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e1eb89a38a4da260800000000000000
-      internalID: 7110421316033569256
+      spriteID: b2d74517f2a6c1f90800000000000000
+      internalID: -6981588570333741781
       vertices: []
       indices: 
       edges: []
@@ -133,7 +133,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7bd9d04d575c15c4dbda2f9c661948db
+    spriteID: f879dabba7f9ac44c9e0e4a6550dc65c
     internalID: 0
     vertices: []
     indices: 
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      slider_1_0: 7110421316033569256
+      languette_0: -6981588570333741781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

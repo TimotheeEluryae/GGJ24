@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2d88f4feecdd3774494f551b11afbe62
+guid: d2ebd87365636a74f994efc738cb4fa7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7110421316033569256
-    second: slider_1_0
+      213: -2281084761733157837
+    second: bouton regagle_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,22 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slider_1_0
+      name: bouton regagle_0
       rect:
         serializedVersion: 2
-        x: 905
-        y: 463
-        width: 229
-        height: 51
+        x: 863
+        y: 639
+        width: 98
+        height: 101
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 48, y: 25, z: 29, w: 24}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e1eb89a38a4da260800000000000000
-      internalID: 7110421316033569256
+      spriteID: 33ca652be75f750e0800000000000000
+      internalID: -2281084761733157837
       vertices: []
       indices: 
       edges: []
@@ -133,15 +133,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7bd9d04d575c15c4dbda2f9c661948db
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      slider_1_0: 7110421316033569256
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
