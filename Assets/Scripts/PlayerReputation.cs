@@ -38,6 +38,7 @@ public class PlayerReputation : MonoBehaviour
     public void RemoveReputation(int reputationToRemove)
     {
         reputation -= reputationToRemove;
+        if (reputation <= 0) reputation = 1;
         reputationTxt.text = "Reputation : " + reputation;
         reputationTxt.transform.DOScale(new Vector2(.9f, .9f), .1f).OnComplete(() => { reputationTxt.transform.DOScale(new Vector2(1f, 1f), .1f); });
     }
