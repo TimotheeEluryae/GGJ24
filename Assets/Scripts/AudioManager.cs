@@ -39,10 +39,9 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void PlayClipAt(Vector2 pos, AudioClip clip)
+    public void PlayClipAt(AudioClip clip)
     {
         AudioSource tmpAudioClip = new GameObject("tmp Audio Go").AddComponent<AudioSource>();
-        tmpAudioClip.transform.position = pos;
         tmpAudioClip.spatialBlend = 0;
         tmpAudioClip.outputAudioMixerGroup = soundMixerGroup;
         tmpAudioClip.clip = clip;

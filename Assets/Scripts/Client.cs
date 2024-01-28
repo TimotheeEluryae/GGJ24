@@ -11,12 +11,15 @@ public class Client : MonoBehaviour
     public List<Dialog> initialTxt = new List<Dialog>();
     public List<Dialog> exitTxtOK = new List<Dialog>();
     public List<Dialog> exitTxtNOK = new List<Dialog>();
-    
+
     public Sprite spriteOK, spriteNOK;
 
     public int reputationToGive;
 
     public Vector2 reputationMinMax;
+
+    public AudioClip soundOK, soundNOK;
+    public AudioClip[] walkSound;
 
     public List<SCO_Recipe> recipes;
 
@@ -29,18 +32,12 @@ public class Client : MonoBehaviour
         graphics = GetComponent<Image>();
     }
 
-    public void Enter()
+
+
+    public void WalkSound()
     {
-        animator.SetBool("IsEnter", true);
+        AudioManager.instance.PlayClipAt(walkSound[Random.Range(0, walkSound.Length)]);
     }
-
-    public void Exit()
-    {
-        animator.SetBool("IsEnter", false);
-
-        // WARNING ! Reinitialize the GameObject to it's first position.
-    }
-
     public bool CanEnterTheShop()
     {
         return PlayerReputation.Instance.reputation >= reputationMinMax.x && PlayerReputation.Instance.reputation <= reputationMinMax.y;
@@ -73,15 +70,28 @@ public class Client : MonoBehaviour
         return isHappy;
     }
 
+    public void Enter()
+    {
+        animator.SetBool("IsEnter", true);
+    }
+
     public void ExitHappy()
     {
-        //graphics.sprite = spriteOK;
+        graphics.sprite = spriteOK;
+        AudioManager.instance.PlayClipAt(soundOK);
         Exit();
     }
     public void ExitSad()
     {
+        graphics.sprite = spriteNOK;
+        AudioManager.instance.PlayClipAt(soundNOK);
         Exit();
-        //graphics.sprite = spriteNOK;
+    }
+    public void Exit()
+    {
+        animator.SetBool("IsEnter", false);
+
+        // WARNING ! Reinitialize the GameObject to it's first position.
     }
 }
 [System.Serializable]

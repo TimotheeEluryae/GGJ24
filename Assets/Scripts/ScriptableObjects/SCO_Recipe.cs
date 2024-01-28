@@ -5,7 +5,6 @@ public class SCO_Recipe : ScriptableObject
 {
     public string recipeName;
     [TextArea]public string description;
-    public Sprite recipeSprite;
 
     public Vector2 egg, flour, butter, sugaryThing, sugar, yeast;
 }

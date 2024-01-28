@@ -12,7 +12,6 @@ public class AssignRecipe : MonoBehaviour
 
     private void Awake()
     {
-        recipeImage.sprite = recipe.recipeSprite;
         recipeDescription.text = recipe.description;
         recipeName.text = recipe.recipeName;
     }
