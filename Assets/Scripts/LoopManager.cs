@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class LoopManager : MonoBehaviour
 {
     public List<GameObject> everyClientPrefabs = new List<GameObject>();
-    List<GameObject> clients = new List<GameObject>();
+    List<GameObject> clientsInGame = new List<GameObject>();
+    List<GameObject> clientCanBeSelected = new List<GameObject>();
     GameObject currentClient;
 
     public TMP_Text ingredientCountTxt;
@@ -38,9 +39,11 @@ public class LoopManager : MonoBehaviour
             if (everyClientPrefabs[i] != null)
             {
                 GameObject tmp = Instantiate(everyClientPrefabs[i], clientContent);
-                clients.Add(tmp);
+                clientsInGame.Add(tmp);
             }
         }
+
+        clientCanBeSelected = clientsInGame;
 
         StartCoroutine(StartClientInteraction());
     }
@@ -78,16 +81,22 @@ public class LoopManager : MonoBehaviour
 
     public GameObject SelectClient()
     {
-        List<GameObject> clientSelected = new List<GameObject>();
+        List<GameObject> clientsSelected = new List<GameObject>();
 
-        for (int i = 0; i < clients.Count; i++)
+        for (int i = 0; i < clientCanBeSelected.Count; i++)
         {
-            clients[i].SetActive(false);
-
-            if (clients[i].GetComponent<Client>().CanEnterTheShop()) clientSelected.Add(clients[i]);
+            clientCanBeSelected[i].SetActive(false);
+            if (clientCanBeSelected[i].GetComponent<Client>().CanEnterTheShop()) clientsSelected.Add(clientCanBeSelected[i]);
         }
 
-        return clientSelected[Random.Range(0, clientSelected.Count)];
+        if(clientsSelected.Count <= 0)
+        {
+
+        }
+
+        GameObject currentClient = clientsSelected[Random.Range(0, clientsSelected.Count)];
+        clientCanBeSelected.Remove(currentClient);
+        return currentClient;
     }
 
     public void AddEgg()=> AddIngredient(Ingredient.Egg);
@@ -134,7 +143,7 @@ public class LoopManager : MonoBehaviour
         {
             if (clientSC.spriteOK != null) clientSC.graphics.sprite = clientSC.spriteOK;
             if (clientSC.soundOK != null) AudioManager.instance.PlayClipAt(clientSC.soundOK);
-            DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtOK);
+            DialogSystem.Instance.StartDialog("Ombre", clientSC.exitTxtOK);
             isHappy = true;
             isSpeaking = true;
         }
