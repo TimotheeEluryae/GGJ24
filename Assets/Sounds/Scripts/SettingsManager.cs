@@ -1,11 +1,15 @@
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public GameObject settingsPanel;
     public GameObject recipePanel;
+
+    public Slider masterSlider;
+    public Slider musiclider;
+    public Slider vfxSlider;
 
     public Animator recipePanelAnimator;
 
@@ -32,7 +36,7 @@ public class UIManager : MonoBehaviour
 
     public void SetMasterVolume(float volume)
     {
-        float dB;
+        float dB = masterSlider.value;
 
         if (volume != 0)
             dB = 20.0f * Mathf.Log10(volume);
@@ -42,7 +46,7 @@ public class UIManager : MonoBehaviour
     }
     public void SetMusicVolume(float music)
     {
-        float dB;
+        float dB = musiclider.value;
 
         if (music != 0)
             dB = 20.0f * Mathf.Log10(music);
@@ -52,7 +56,7 @@ public class UIManager : MonoBehaviour
     }
     public void SetVFXVolume(float vfx)
     {
-        float dB;
+        float dB = vfxSlider.value;
 
         if (vfx != 0)
             dB = 20.0f * Mathf.Log10(vfx);

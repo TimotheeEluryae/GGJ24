@@ -62,9 +62,10 @@ public class LoopManager : MonoBehaviour
 
             if (clientSC.staticPNJ)
             {
-                yield return new WaitForSeconds(4);
+                yield return new WaitForSeconds(1.5f);
 
                 if (clientSC.staticSoundPNJ != null) AudioManager2.instance.PlayClipAt(clientSC.staticSoundPNJ);
+                yield return new WaitForSeconds(2.5f);
                 clientSC.Exit();
                 StartCoroutine(WaitForNewClient(.8f));
             }
