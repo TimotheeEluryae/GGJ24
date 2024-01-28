@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c018f450a78f5fa43921ae156ec08fd9, type: 3}
-  m_Name: RecipeTest 8
+  m_Name: CinnamonRollRecipe
   m_EditorClassIdentifier: 
   recipeName: pain
   description: dexcription test blablabla
-  recipeSprite: {fileID: -8983144107253114582, guid: b01fde7edd073154280c601d87fdd648, type: 3}
-  egg: {x: 0, y: 0}
+  egg: {x: 1, y: 2}
   flour: {x: 0, y: 0}
   butter: {x: 0, y: 0}
-  sugaryThing: {x: 0, y: 0}
-  sugar: {x: 0, y: 0}
+  sugaryThing: {x: 2, y: 3}
+  sugar: {x: 3, y: 4}
   yeast: {x: 0, y: 0}
