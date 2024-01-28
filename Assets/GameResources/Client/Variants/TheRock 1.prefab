@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: 1399934812597406406, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2215198940741148068, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
+      objectReference: {fileID: 21300000, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
     - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Name
       value: TheRock 1

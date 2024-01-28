@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: d2ebd87365636a74f994efc738cb4fa7
+guid: 11da82f6f0f9dd345b046ed50d3dbcbf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2281084761733157837
-    second: bouton regagle_0
+      213: 5818074514969078737
+    second: logo_sucre 1_0
+  - first:
+      213: -5715619395811134938
+    second: logo_sucre 1_1
+  - first:
+      213: 2210035044229869310
+    second: logo_sucre 1_2
+  - first:
+      213: 8423227907387491061
+    second: logo_sucre 1_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bouton regagle_0
+      name: logo_sucre 1_0
       rect:
         serializedVersion: 2
-        x: 863
-        y: 639
-        width: 98
-        height: 101
+        x: 578
+        y: 842
+        width: 400
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +133,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33ca652be75f750e0800000000000000
-      internalID: -2281084761733157837
+      spriteID: 1db2c7522f3fdb050800000000000000
+      internalID: 5818074514969078737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_sucre 1_1
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1009
+        width: 1544
+        height: 1455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6223851317a0ea0b0800000000000000
+      internalID: -5715619395811134938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_sucre 1_2
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 716
+        width: 369
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe6c78d92f9bae10800000000000000
+      internalID: 2210035044229869310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_sucre 1_3
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 645
+        width: 1190
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f20df1572155e470800000000000000
+      internalID: 8423227907387491061
       vertices: []
       indices: 
       edges: []
@@ -140,8 +212,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      bouton regagle_0: -2281084761733157837
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

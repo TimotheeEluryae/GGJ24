@@ -59,6 +59,8 @@ MonoBehaviour:
   spriteOK: {fileID: 0}
   spriteNOK: {fileID: 0}
   reputationToGive: 5
+  staticPNJ: 0
+  staticSoundPNJ: {fileID: 0}
   reputationMinMax: {x: 0, y: 0}
   soundOK: {fileID: 0}
   soundNOK: {fileID: 0}
@@ -70,6 +72,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ced8fed5de2a7714c8c066df9a597f92, type: 3}
   - {fileID: 8300000, guid: 57fff6eb5c922834f881585fc0bd0e68, type: 3}
   recipes: []
+  wasAlreadySelected: 0
+  graphics: {fileID: 0}
 --- !u!95 &3109688029821368432
 Animator:
   serializedVersion: 7
@@ -120,7 +124,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7357965536260114640, guid: 1e321746350847548a7ddd83578676cf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e321746350847548a7ddd83578676cf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

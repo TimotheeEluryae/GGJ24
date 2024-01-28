@@ -51,10 +51,10 @@ PrefabInstance:
     - target: {fileID: 1399934812597406406, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2215198940741148068, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
+      objectReference: {fileID: -8160555297272470832, guid: 14b883f2bca75e24990425f77b483ad9, type: 3}
     - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Name
-      value: Static
+      value: Josh
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: soundOK
@@ -78,19 +78,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
-      value: The rock
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: staticSoundPNJ
       value: 
-      objectReference: {fileID: 8300000, guid: 82b67604762d93043b041e026c642895, type: 3}
+      objectReference: {fileID: 8300000, guid: 2f70c266c358b944ab100882d12872ea, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientParameters
       value: 
       objectReference: {fileID: 11400000, guid: 767b95e097f70d447b5bbe0bec21f6f0, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationToGive
-      value: 20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.x
@@ -98,15 +98,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.y
-      value: 100
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.size
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtNOK.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt

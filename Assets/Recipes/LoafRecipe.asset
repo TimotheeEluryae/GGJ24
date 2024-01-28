@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LoafRecipe
   m_EditorClassIdentifier: 
   recipeName: Loaf
-  description: dexcription test blablabla
+  description: 1 oeuf, 1 beurre, 2 sucres
   egg: {x: 1, y: 2}
   flour: {x: 0, y: 0}
   butter: {x: 1, y: 2}

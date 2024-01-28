@@ -10,6 +10,8 @@ public class LoopManager : MonoBehaviour
     List<GameObject> clientsInGame = new List<GameObject>();
     GameObject currentClient;
 
+    public AudioClip buttonSound;
+
     public TMP_Text ingredientCountTxt;
 
     public Transform clientContent;
@@ -132,6 +134,8 @@ public class LoopManager : MonoBehaviour
     {
         if (isSpeaking) return;
 
+        AudioManager2.instance.PlayClipAt(buttonSound);
+
         Debug.Log("trying to add ingredients");
         if (totalIngredients < maxIngredients)
         {
@@ -154,6 +158,8 @@ public class LoopManager : MonoBehaviour
     {
         if(isSpeaking || !canBake)
             return;
+
+        AudioManager2.instance.PlayClipAt(buttonSound);
 
         canBake = false;
 
@@ -201,6 +207,12 @@ public class LoopManager : MonoBehaviour
         {
             case ClientState.FirstSpeak:
                 clientState = ClientState.Waiting;
+                eggCount = 0;
+                flourCount = 0;
+                butterCount = 0;
+                sugaryThingCount = 0;
+                sugarCount = 0;
+                yeastCount = 0;
                 canBake = true;
                 break;
 

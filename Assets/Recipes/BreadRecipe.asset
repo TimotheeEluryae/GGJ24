@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BreadRecipe
   m_EditorClassIdentifier: 
   recipeName: Bread
-  description: dexcription test blablabla
+  description: 3 oeufs, 3 farines, 2 beurres, 1 levure
   egg: {x: 3, y: 4}
   flour: {x: 3, y: 4}
   butter: {x: 2, y: 3}
