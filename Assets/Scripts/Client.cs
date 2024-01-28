@@ -12,9 +12,13 @@ public class Client : MonoBehaviour
     public List<Dialog> exitTxtOK = new List<Dialog>();
     public List<Dialog> exitTxtNOK = new List<Dialog>();
 
+    Sprite initialSprite;
     public Sprite spriteOK, spriteNOK;
 
     public int reputationToGive;
+
+    public bool staticPNJ;
+    public AudioClip staticSoundPNJ;
 
     public Vector2 reputationMinMax;
 
@@ -24,25 +28,25 @@ public class Client : MonoBehaviour
     public List<SCO_Recipe> recipes;
 
     Animator animator;
-    Image graphics;
+    [HideInInspector] public Image graphics;
+
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
         graphics = GetComponent<Image>();
+
+        initialSprite = graphics.sprite;
     }
-
-
 
     public void WalkSound()
     {
-        AudioManager.instance.PlayClipAt(walkSound[Random.Range(0, walkSound.Length)]);
+        if(walkSound.Length != 0) AudioManager.instance.PlayClipAt(walkSound[Random.Range(0, walkSound.Length)]);
     }
     public bool CanEnterTheShop()
     {
         return PlayerReputation.Instance.reputation >= reputationMinMax.x && PlayerReputation.Instance.reputation <= reputationMinMax.y;
     }
-
     private bool IsRecipeValid(SCO_Recipe recipe, int egg, int flour, int butter, int sugaryThing, int sugar, int yeast)
     {
         return egg >= recipe.egg.x
@@ -58,7 +62,6 @@ public class Client : MonoBehaviour
             && yeast <= recipe.yeast.x
             && yeast <= recipe.yeast.y;
     }
-
     public bool IsClientHappy(int egg, int flour, int butter, int sugaryThing, int sugar, int yeast)
     {
         bool isHappy = true;
@@ -72,26 +75,12 @@ public class Client : MonoBehaviour
 
     public void Enter()
     {
+        graphics.sprite = initialSprite;
         animator.SetBool("IsEnter", true);
-    }
-
-    public void ExitHappy()
-    {
-        graphics.sprite = spriteOK;
-        AudioManager.instance.PlayClipAt(soundOK);
-        Exit();
-    }
-    public void ExitSad()
-    {
-        graphics.sprite = spriteNOK;
-        AudioManager.instance.PlayClipAt(soundNOK);
-        Exit();
     }
     public void Exit()
     {
         animator.SetBool("IsEnter", false);
-
-        // WARNING ! Reinitialize the GameObject to it's first position.
     }
 }
 [System.Serializable]
