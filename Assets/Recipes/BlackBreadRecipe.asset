@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BlackBreadRecipe
   m_EditorClassIdentifier: 
   recipeName: Pain Noir
-  description: mettez quelques (3) oeufs, et  5 farines
+  description: Mettez quelques oeufs, et 5 farines.
   egg: {x: 3, y: 4}
   flour: {x: 5, y: 6}
   butter: {x: 0, y: 0}

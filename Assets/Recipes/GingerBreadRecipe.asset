@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: GingerBreadRecipe
   m_EditorClassIdentifier: 
   recipeName: "Pain d'\xE9pices"
-  description: '1 farine, un max de sucrerie
-
-    , 3 sucres'
+  description: 1 farine, un max de sucrerie, 3 sucres
   egg: {x: 0, y: 0}
   flour: {x: 1, y: 2}
   butter: {x: 0, y: 0}

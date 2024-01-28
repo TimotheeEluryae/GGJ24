@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DonutRecipe
   m_EditorClassIdentifier: 
   recipeName: Donut
-  description: quelques sucreries autant de sucres, un sachet de  levure
+  description: Quelques sucreries autant de sucres, un sachet de  levure
   egg: {x: 0, y: 0}
   flour: {x: 0, y: 0}
   butter: {x: 0, y: 0}

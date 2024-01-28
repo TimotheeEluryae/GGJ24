@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2076799821261493449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399934812597406406, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
+    - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_Name
+      value: TheRock 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundOK
+      value: 
+      objectReference: {fileID: 8300000, guid: 82b67604762d93043b041e026c642895, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundNOK
+      value: 
+      objectReference: {fileID: 8300000, guid: 82b67604762d93043b041e026c642895, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteOK
+      value: 
+      objectReference: {fileID: 21300000, guid: 8d05a6943dbd6c544b8b0b9b0338e920, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteNOK
+      value: 
+      objectReference: {fileID: 21300000, guid: 576db615056dd3b4a9abc26d70e4fc0d, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: clientName
+      value: The rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: clientParameters
+      value: 
+      objectReference: {fileID: 11400000, guid: 767b95e097f70d447b5bbe0bec21f6f0, type: 2}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationToGive
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: recipes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.y
+      value: 1010
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: effectOK.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: effectNOK.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtOK.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'recipes.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 4756b18daab797a45a1b90a36a2e0169, type: 2}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectOK.Array.data[0]'
+      value: 
+      objectReference: {fileID: 6326231466481203021, guid: 4e6daed6e25a0314694edf60a43b4b4b, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectOK.Array.data[1]'
+      value: 
+      objectReference: {fileID: -6859001260349468157, guid: 4e6daed6e25a0314694edf60a43b4b4b, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectOK.Array.data[2]'
+      value: 
+      objectReference: {fileID: 3246874405919910853, guid: 80fcb47f79c2b0b46a96a117ed701afe, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectNOK.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4218199000272511623, guid: b379e91358ed099478278f427361a796, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectNOK.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1426245910902499433, guid: fc7b3eb7cc1906547a7f4b6f54948f19, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectNOK.Array.data[2]'
+      value: 
+      objectReference: {fileID: 4920269339252246039, guid: 3f157a23f5f089f418aed316febf9bf3, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtOK.Array.data[0].txt
+      value: "Merci mec, je vais te recommander \xE0 un vieil ami je pense, un mec
+        en or ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtNOK.Array.data[0].txt
+      value: "J\u2019esp\xE8re vraiment que c\u2019\xE9tait une blague et que tu
+        le fais expr\xE8s mec, excuse moi mais je me retiens de t\u2019insulter de
+        voyou je te le dis\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[0].txt
+      value: "Bon \xE9coute, mon coach m\u2019a dit de prendre quelque chose en plus
+        avec mes st\xE9ro\xEFdes\u2026 Et je te fais confiance pour \xE7a mon guy
+        ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[1].txt
+      value: Et je suis fort
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
