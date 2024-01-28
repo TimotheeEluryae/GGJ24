@@ -212,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo_sucre 1_0: 5818074514969078737
+      logo_sucre 1_1: -5715619395811134938
+      logo_sucre 1_2: 2210035044229869310
+      logo_sucre 1_3: 8423227907387491061
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
