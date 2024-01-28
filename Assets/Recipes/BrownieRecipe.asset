@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c018f450a78f5fa43921ae156ec08fd9, type: 3}
   m_Name: BrownieRecipe
   m_EditorClassIdentifier: 
-  recipeName: pain
+  recipeName: Brownie
   description: dexcription test blablabla
   egg: {x: 0, y: 0}
   flour: {x: 1, y: 2}

@@ -67,11 +67,11 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteOK
       value: 
-      objectReference: {fileID: -3870272148985773120, guid: d01f3cc5b224e22419eefb6bb98c0fb0, type: 3}
+      objectReference: {fileID: 21300000, guid: 3f25c58adf952ec4190a348c47ec1340, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteNOK
       value: 
-      objectReference: {fileID: 1818876763668198108, guid: 7d88da23ef381bb4a8a5e5f7b81b9175, type: 3}
+      objectReference: {fileID: 21300000, guid: 96c12d30d7cdbf043a5cedd590f63d03, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
       value: Client
