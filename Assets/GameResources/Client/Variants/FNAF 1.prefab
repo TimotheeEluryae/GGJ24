@@ -74,7 +74,7 @@ PrefabInstance:
       objectReference: {fileID: -770033571703955060, guid: b594e84c8ae4c95428d1c30f52442376, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
-      value: FNAF
+      value: Freddy
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientParameters

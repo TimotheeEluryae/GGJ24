@@ -74,7 +74,7 @@ PrefabInstance:
       objectReference: {fileID: 8564843010584167440, guid: d005300d2479183449bd243df19db888, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
-      value: Paindepice
+      value: Client
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientParameters
