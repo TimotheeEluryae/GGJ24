@@ -67,11 +67,11 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteOK
       value: 
-      objectReference: {fileID: 21300000, guid: b01fde7edd073154280c601d87fdd648, type: 3}
+      objectReference: {fileID: 21300000, guid: 01037765bdfee9f4191feadd353346a9, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteNOK
       value: 
-      objectReference: {fileID: -1201352715433834146, guid: 5c1992832baae134d860d5eff2a6211f, type: 3}
+      objectReference: {fileID: 21300000, guid: 5c1992832baae134d860d5eff2a6211f, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
       value: The rock

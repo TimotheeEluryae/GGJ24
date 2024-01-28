@@ -43,7 +43,7 @@ public class Client : MonoBehaviour
 
     public void WalkSound()
     {
-        if(walkSound.Length != 0) AudioManager.instance.PlayClipAt(walkSound[Random.Range(0, walkSound.Length)]);
+        if(walkSound.Length != 0) AudioManager2.instance.PlayClipAt(walkSound[Random.Range(0, walkSound.Length)]);
     }
     public bool CanEnterTheShop()
     {
