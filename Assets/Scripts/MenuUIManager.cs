@@ -1,7 +1,5 @@
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class menu : MonoBehaviour
 {
@@ -10,6 +8,10 @@ public class menu : MonoBehaviour
 
     private bool tutorialIsOpen = false;
 
+    private void Start()
+    {
+        Time.timeScale = 1.0f;
+    }
     public void OpenCloseTutorial()
     {
         AudioManager2.instance.PlayClipAt(buttonSound);
