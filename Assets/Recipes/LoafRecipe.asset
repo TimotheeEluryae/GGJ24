@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c018f450a78f5fa43921ae156ec08fd9, type: 3}
   m_Name: LoafRecipe
   m_EditorClassIdentifier: 
-  recipeName: Loaf
-  description: dexcription test blablabla
+  recipeName: Brioche
+  description: 1 oeuf, 1 beurre, 2 sucres
   egg: {x: 1, y: 2}
   flour: {x: 0, y: 0}
   butter: {x: 1, y: 2}

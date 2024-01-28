@@ -10,7 +10,6 @@ public class DialogSystem : MonoBehaviour
     public TMP_Text clientNameTxt;
     public TMP_Text clientSpeakingTxt;
     public GameObject continueButton;
-    public TMP_Text continueButtonTxt;
 
     Coroutine currentCoroutine;
 
@@ -33,7 +32,6 @@ public class DialogSystem : MonoBehaviour
         clientNameTxt.text = clientName;
         currentDialogIndex = 0;
         clientSpeakingTxt.text = "";
-        continueButtonTxt.text = "Continuer";
         currentCoroutine = StartCoroutine(SetTmpTxt(currentDialogs[currentDialogIndex].txt));
     }
 
@@ -53,7 +51,6 @@ public class DialogSystem : MonoBehaviour
 
             if(currentDialogIndex >= currentDialogs.Count)
             {
-                continueButtonTxt.text = "Terminer";
                 EndDialog();
                 return;
             }
@@ -79,7 +76,5 @@ public class DialogSystem : MonoBehaviour
             yield return new WaitForSeconds(delayBetweenCaracter);
         }
         isWriting = false;
-
-        if(currentDialogIndex + 1 >= currentDialogs.Count) continueButtonTxt.text = "Terminer";
     }
 }

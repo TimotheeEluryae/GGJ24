@@ -53,15 +53,15 @@ public class Client : MonoBehaviour
     {
         return egg >= recipe.egg.x
             && egg <= recipe.egg.y
-            && flour <= recipe.flour.x
+            && flour >= recipe.flour.x
             && flour <= recipe.flour.y
-            && butter <= recipe.butter.x
+            && butter >= recipe.butter.x
             && butter <= recipe.butter.y
-            && sugaryThing <= recipe.sugaryThing.x
+            && sugaryThing >= recipe.sugaryThing.x
             && sugaryThing <= recipe.sugaryThing.y
-            && sugar <= recipe.sugar.x
+            && sugar >= recipe.sugar.x
             && sugar <= recipe.sugar.y
-            && yeast <= recipe.yeast.x
+            && yeast >= recipe.yeast.x
             && yeast <= recipe.yeast.y;
     }
     public bool IsClientHappy(int egg, int flour, int butter, int sugaryThing, int sugar, int yeast)
