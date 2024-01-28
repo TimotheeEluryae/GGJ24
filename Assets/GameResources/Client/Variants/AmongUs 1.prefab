@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: -2215198940741148068, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
     - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Name
-      value: AmongUs
+      value: AmongUs 1
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: soundOK
@@ -90,11 +90,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.x
-      value: 50
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.y
-      value: 1000
+      value: 1010
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.size
@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 1af563a2cefe15747a82d76bc4116053, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: "Aussi innocent que ce chat\u2026 "
+      value: "Merci\u2026 J\u2019y retourne, je passe par la ven\u2026 Le couloir\u2026 "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[1].txt
@@ -128,7 +128,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
-      value: "J\u2019ai dit une brioche, pas de la crotte\u2026 "
+      value: "C\u2019est votre conception du sucr\xE9 ? Pour moi c\u2019est un tentative
+        d\u2019assassinat dans la cafetaria\u2026 Flagrant et vain. "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[1].txt
@@ -142,8 +143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: "Hey je vais avoir besoin de quelque chose comme ce chat ici s\u2019il
-        vous pla\xEEt . "
+      value: "Quelque chose de dor\xE9 et de sucr\xE9, comme mes autres crewmates\u2026 "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[1].txt
