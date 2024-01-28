@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gingerbread_final_0: 9117535678400504378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

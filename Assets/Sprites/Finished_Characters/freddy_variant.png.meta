@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      freddy_variant_0: -770033571703955060
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

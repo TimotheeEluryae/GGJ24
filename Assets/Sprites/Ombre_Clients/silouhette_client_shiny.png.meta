@@ -620,7 +620,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      silouhette_client_shiny_0: 2085401927950419804
+      silouhette_client_shiny_1: -2215198940741148068
+      silouhette_client_shiny_10: -7791634711256106554
+      silouhette_client_shiny_11: -3795010111921212635
+      silouhette_client_shiny_12: 233515330069418254
+      silouhette_client_shiny_13: -8924480957691224728
+      silouhette_client_shiny_14: -7478941190053910487
+      silouhette_client_shiny_15: -8166831089321751528
+      silouhette_client_shiny_16: 7057604665374652359
+      silouhette_client_shiny_17: 1156370379842901656
+      silouhette_client_shiny_18: -291887348186073651
+      silouhette_client_shiny_19: 8100880663509821955
+      silouhette_client_shiny_2: -3931704774176906228
+      silouhette_client_shiny_20: -133920221263936275
+      silouhette_client_shiny_3: 5276008146929968369
+      silouhette_client_shiny_4: 7910829403271279781
+      silouhette_client_shiny_5: -2016155311643153601
+      silouhette_client_shiny_6: 3777978862581803534
+      silouhette_client_shiny_7: -8960795964112797242
+      silouhette_client_shiny_8: -4338815061334274940
+      silouhette_client_shiny_9: -992432090817556446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

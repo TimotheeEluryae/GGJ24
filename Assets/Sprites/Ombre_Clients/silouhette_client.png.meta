@@ -164,7 +164,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      silouhette_client_0: -7357965536260114640
+      silouhette_client_1: 9004455637086838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

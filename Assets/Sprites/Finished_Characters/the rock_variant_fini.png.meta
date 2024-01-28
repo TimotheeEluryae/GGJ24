@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      the rock_variant_fini_0: 2687363057602563515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

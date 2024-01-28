@@ -188,7 +188,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_shiny_0: -7554055013252452634
+      aura_shiny_1: -4542580692155178370
+      aura_shiny_2: 5747893959634827812
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

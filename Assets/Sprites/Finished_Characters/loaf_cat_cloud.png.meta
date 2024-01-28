@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      loaf_cat_cloud_0: -3870272148985773120
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

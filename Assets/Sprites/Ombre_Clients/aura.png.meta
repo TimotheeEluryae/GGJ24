@@ -188,7 +188,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_0: 8101814991177344531
+      aura_1: -1037195541978810413
+      aura_2: -9040564401775751873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      breton_final_0: -6995770713472517848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

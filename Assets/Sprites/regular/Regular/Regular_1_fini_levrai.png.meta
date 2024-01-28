@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Regular_1_fini_levrai_0: 2781153184023552815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

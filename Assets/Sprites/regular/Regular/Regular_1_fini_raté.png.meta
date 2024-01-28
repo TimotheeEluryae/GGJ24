@@ -164,7 +164,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Regular_1_fini_rat\xE9_0": -6321589846205811782
+      "Regular_1_fini_rat\xE9_1": 1533730160077455554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
