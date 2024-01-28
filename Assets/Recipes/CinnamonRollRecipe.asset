@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c018f450a78f5fa43921ae156ec08fd9, type: 3}
   m_Name: CinnamonRollRecipe
   m_EditorClassIdentifier: 
-  recipeName: Cinnamon Roll
-  description: "1 oeuf, 2 trucs sucr\xE9s, 3 sucres"
+  recipeName: "Roul\xE9 de Cannelle"
+  description: 'un oeuf, 2 sucreries, 3 glucoses
+
+'
   egg: {x: 1, y: 2}
   flour: {x: 0, y: 0}
   butter: {x: 0, y: 0}

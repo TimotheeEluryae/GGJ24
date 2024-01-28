@@ -67,11 +67,11 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteOK
       value: 
-      objectReference: {fileID: 4522509117316722986, guid: 7d975e8445fd4134bacb0dcdc9e0ccda, type: 3}
+      objectReference: {fileID: 21300000, guid: e25e4413b93d4ee459ce78a16dc8e160, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteNOK
       value: 
-      objectReference: {fileID: 7808764400769371739, guid: 503e020183bf8aa42a8f6ed76b665938, type: 3}
+      objectReference: {fileID: 21300000, guid: 54e2c5f9c0214c446a4c89e3f8c478cc, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
       value: Mario
@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: d7c1f19794d4e6e499b432325142b3fa, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationToGive
-      value: 20
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: recipes.Array.size

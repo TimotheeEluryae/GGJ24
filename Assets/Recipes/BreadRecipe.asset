@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c018f450a78f5fa43921ae156ec08fd9, type: 3}
   m_Name: BreadRecipe
   m_EditorClassIdentifier: 
-  recipeName: Bread
-  description: 3 oeufs, 3 farines, 2 beurres, 1 levure
+  recipeName: Baguette/Pain
+  description: quelques oeufs, quelques farines, un peu de beurre, et un chouia de
+    levure
   egg: {x: 3, y: 4}
   flour: {x: 3, y: 4}
   butter: {x: 2, y: 3}

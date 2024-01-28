@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: KouignAmann
   m_EditorClassIdentifier: 
   recipeName: Kouign Amann
-  description: 5 beurres, 5 sucres
+  description: tous le monde c'est faire un kouign amann
   egg: {x: 0, y: 0}
   flour: {x: 0, y: 0}
   butter: {x: 5, y: 6}

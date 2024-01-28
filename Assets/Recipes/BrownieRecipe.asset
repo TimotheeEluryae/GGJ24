@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BrownieRecipe
   m_EditorClassIdentifier: 
   recipeName: Brownie
-  description: 1 farine, 3 beurres, 2 sucres
+  description: un chouia de farine, 3 beurres, un peu deux sucres
   egg: {x: 0, y: 0}
   flour: {x: 1, y: 2}
   butter: {x: 3, y: 4}
