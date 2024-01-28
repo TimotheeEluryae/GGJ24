@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4552679113548330600
+--- !u!1001 &2112442492710931454
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -54,12 +54,12 @@ PrefabInstance:
       objectReference: {fileID: -2215198940741148068, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
     - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Name
-      value: AmongUs
+      value: Breton 1
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: soundOK
       value: 
-      objectReference: {fileID: 8300000, guid: 52357ff06c7ba6d47a4be0d1c015bc4d, type: 3}
+      objectReference: {fileID: 8300000, guid: 1a055c39dd171b547b1804382a49bb68, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: soundNOK
       value: 
@@ -67,34 +67,34 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteOK
       value: 
-      objectReference: {fileID: 4522509117316722986, guid: 7d975e8445fd4134bacb0dcdc9e0ccda, type: 3}
+      objectReference: {fileID: -6995770713472517848, guid: 7e4f9b6c37aa4374684ca35f377a02b7, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteNOK
       value: 
-      objectReference: {fileID: 7808764400769371739, guid: 503e020183bf8aa42a8f6ed76b665938, type: 3}
+      objectReference: {fileID: -1430494449542140569, guid: 70951a42a95917a48a6aa2ab705fd7d0, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
-      value: Among us
+      value: Breton
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientParameters
       value: 
-      objectReference: {fileID: 11400000, guid: 5b4d9592c58f23542864883cd2e88130, type: 2}
+      objectReference: {fileID: 11400000, guid: 4a2b2c1ebffb9f9498c51cca955e8a31, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationToGive
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: recipes.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.x
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.y
-      value: 1000
+      value: 1010
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.size
@@ -111,48 +111,47 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: 'recipes.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 1af563a2cefe15747a82d76bc4116053, type: 2}
+      objectReference: {fileID: 11400000, guid: 204a54b82e58d4740ac3a44e846a4a5a, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: "Aussi innocent que ce chat\u2026 "
+      value: "Alors \xE7a, \xE7a c\u2019est super, \xE7a c\u2019est parfait ! "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[1].txt
-      value: " Hum, je vais la donner aux coll\xE8gues pour la prochaine r\xE9u,
-        il y a une tension de dingue en ce moment \xE0 table, et beaucoup d\u2019absent\xE9isme\u2026 "
+      value: Super c'est bien ce que je veux
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[2].txt
-      value: " Hum, je vais la donner aux coll\xE8gues pour la prochaine r\xE9u,
-        il y a une tension de dingue en ce moment \xE0 table, et beaucoup d\u2019absent\xE9isme\u2026 "
+      value: Super c'est bien ce que je veux
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
-      value: "J\u2019ai dit une brioche, pas de la crotte\u2026 "
+      value: 'Ou sont les saveurs ? Ou est le beurre ? Hein ? OU-EST-IL ?? '
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[1].txt
-      value: " Honn\xEAtement je pr\xE9f\xE8re mourir dans le vide spatial plut\xF4t
-        que de manger \xE7a\u2026 "
+      value: Nan je voulais pas ca
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[2].txt
-      value: " Honn\xEAtement je pr\xE9f\xE8re mourir dans le vide spatial plut\xF4t
-        que de manger \xE7a\u2026 "
+      value: Nan je voulais pas ca
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: "Hey je vais avoir besoin de quelque chose comme ce chat ici s\u2019il
-        vous pla\xEEt . "
+      value: 'Ils ont des chapeaux ronds ! Vive la bretagneee ! Ils ont des *** en
+        plomb, vive les bretons ! '
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[1].txt
-      value: "Quelque chose de dor\xE9 et de sucr\xE9\u2026 "
+      value: mais le beurre est la pour me consoler
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[2].txt
-      value: "Vous auriez un truc pour aller dans l\u2019espace s\u2019il vous pla\xEEt
-        ? "
+      value: mais le beurre est la pour me consoler
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[3].txt
+      value: mais le beurre est la pour me consoler
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
