@@ -8,7 +8,6 @@ public class LoopManager : MonoBehaviour
 {
     public List<GameObject> everyClientPrefabs = new List<GameObject>();
     List<GameObject> clientsInGame = new List<GameObject>();
-    List<GameObject> clientCanBeSelected = new List<GameObject>();
     GameObject currentClient;
 
     public TMP_Text ingredientCountTxt;
@@ -43,8 +42,6 @@ public class LoopManager : MonoBehaviour
             }
         }
 
-        clientCanBeSelected = clientsInGame;
-
         StartCoroutine(StartClientInteraction());
     }
 
@@ -65,6 +62,7 @@ public class LoopManager : MonoBehaviour
 
             if(clientSC.staticSoundPNJ != null) AudioManager.instance.PlayClipAt(clientSC.staticSoundPNJ);
             clientSC.Exit();
+            StartCoroutine(WaitForNewClient(.8f));
         }
         else
         {
@@ -86,11 +84,27 @@ public class LoopManager : MonoBehaviour
         for (int i = 0; i < clientsInGame.Count; i++)
         {
             clientsInGame[i].SetActive(false);
+            Client tmp = clientsInGame[i].GetComponent<Client>();
 
-            if (clientsInGame[i].GetComponent<Client>().CanEnterTheShop()) clientSelected.Add(clientsInGame[i]);
+            if (tmp.CanEnterTheShop() && !tmp.wasAlreadySelected) clientSelected.Add(clientsInGame[i]);
         }
 
-        return clientSelected[Random.Range(0, clientSelected.Count)];
+        if(clientSelected.Count <= 0 )
+        {
+            print("reset list");
+
+            for (int i = 0; i < clientsInGame.Count; i++)
+            {
+                clientsInGame[i].GetComponent<Client>().wasAlreadySelected = false;
+            }
+
+            return SelectClient();
+        }
+
+        GameObject clientSelect = clientSelected[Random.Range(0, clientSelected.Count)];
+        clientSelect.GetComponent<Client>().wasAlreadySelected = true;
+
+        return clientSelect;
     }
 
     public void AddEgg()=> AddIngredient(Ingredient.Egg);

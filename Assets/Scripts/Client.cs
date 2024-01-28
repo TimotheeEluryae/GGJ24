@@ -27,6 +27,8 @@ public class Client : MonoBehaviour
 
     public List<SCO_Recipe> recipes;
 
+    [HideInInspector] public bool wasAlreadySelected = false;
+
     Animator animator;
     [HideInInspector] public Image graphics;
 
