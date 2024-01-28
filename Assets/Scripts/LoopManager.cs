@@ -62,7 +62,7 @@ public class LoopManager : MonoBehaviour
             {
                 yield return new WaitForSeconds(4);
 
-                if (clientSC.staticSoundPNJ != null) AudioManager.instance.PlayClipAt(clientSC.staticSoundPNJ);
+                if (clientSC.staticSoundPNJ != null) AudioManager2.instance.PlayClipAt(clientSC.staticSoundPNJ);
                 clientSC.Exit();
                 StartCoroutine(WaitForNewClient(.8f));
             }
@@ -165,7 +165,7 @@ public class LoopManager : MonoBehaviour
         if (currentClient.GetComponent<Client>().IsClientHappy(eggCount, flourCount, butterCount, sugaryThingCount, sugarCount, yeastCount))
         {
             if (clientSC.spriteOK != null) clientSC.graphics.sprite = clientSC.spriteOK;
-            if (clientSC.soundOK != null) AudioManager.instance.PlayClipAt(clientSC.soundOK);
+            if (clientSC.soundOK != null) AudioManager2.instance.PlayClipAt(clientSC.soundOK);
             DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtOK);
             isHappy = true;
             isSpeaking = true;
@@ -173,7 +173,7 @@ public class LoopManager : MonoBehaviour
         else
         {
             if (clientSC.spriteNOK != null) clientSC.graphics.sprite = clientSC.spriteNOK;
-            if (clientSC.soundNOK != null) AudioManager.instance.PlayClipAt(clientSC.soundNOK);
+            if (clientSC.soundNOK != null) AudioManager2.instance.PlayClipAt(clientSC.soundNOK);
             DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtNOK);
             isHappy = false;
             isSpeaking = true;

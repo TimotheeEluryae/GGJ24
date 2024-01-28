@@ -67,11 +67,11 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteOK
       value: 
-      objectReference: {fileID: 4522509117316722986, guid: 7d975e8445fd4134bacb0dcdc9e0ccda, type: 3}
+      objectReference: {fileID: 21300000, guid: 7d975e8445fd4134bacb0dcdc9e0ccda, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteNOK
       value: 
-      objectReference: {fileID: 7808764400769371739, guid: 503e020183bf8aa42a8f6ed76b665938, type: 3}
+      objectReference: {fileID: 21300000, guid: 503e020183bf8aa42a8f6ed76b665938, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
       value: Among us

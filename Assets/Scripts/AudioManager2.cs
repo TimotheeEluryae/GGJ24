@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class AudioManager : MonoBehaviour
+public class AudioManager2 : MonoBehaviour
 {
     public AudioClip[] playlist;
     int currentMusicIndex;
@@ -13,7 +13,7 @@ public class AudioManager : MonoBehaviour
 
     public AudioMixer audioMixer;
 
-    public static AudioManager instance;
+    public static AudioManager2 instance;
 
     private void Awake()
     {

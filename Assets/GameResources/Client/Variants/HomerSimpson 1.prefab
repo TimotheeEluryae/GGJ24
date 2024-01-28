@@ -79,11 +79,11 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteOK
       value: 
-      objectReference: {fileID: -7761944182437040020, guid: eaf5a9943b067c44083a9aeec809f737, type: 3}
+      objectReference: {fileID: 21300000, guid: eaf5a9943b067c44083a9aeec809f737, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: spriteNOK
       value: 
-      objectReference: {fileID: 7832865082290988068, guid: bfea81a3b4896564bbf86394e93121ac, type: 3}
+      objectReference: {fileID: 21300000, guid: bfea81a3b4896564bbf86394e93121ac, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
       value: Homer Simpson
