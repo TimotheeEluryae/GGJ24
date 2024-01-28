@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using DG.Tweening;
 
 public class PlayerReputation : MonoBehaviour
 {
@@ -32,11 +33,13 @@ public class PlayerReputation : MonoBehaviour
     {
         reputation += reputationToAdd;
         reputationTxt.text = "Reputation : " + reputation;
+        reputationTxt.transform.DOScale(new Vector2(1.1f, 1.1f), .1f).OnComplete(() => { reputationTxt.transform.DOScale(new Vector2(1f, 1f), .1f); });
     }
     public void RemoveReputation(int reputationToRemove)
     {
         reputation -= reputationToRemove;
         reputationTxt.text = "Reputation : " + reputation;
+        reputationTxt.transform.DOScale(new Vector2(.9f, .9f), .1f).OnComplete(() => { reputationTxt.transform.DOScale(new Vector2(1f, 1f), .1f); });
     }
 
     // Moved to the function CanEnterTheShop directly on the Client class.
