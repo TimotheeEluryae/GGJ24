@@ -48,37 +48,51 @@ public class LoopManager : MonoBehaviour
     IEnumerator StartClientInteraction()
     {
         currentClient = SelectClient();
-        currentClient.SetActive(true);
-
-        canBake = false;
-
-        Client clientSC = currentClient.GetComponent<Client>();
-        clientSC.Enter();
-        clientState = ClientState.Enter;
-
-        if (clientSC.staticPNJ)
+        if (currentClient != null)
         {
-            yield return new WaitForSeconds(4);
+            currentClient.SetActive(true);
 
-            if(clientSC.staticSoundPNJ != null) AudioManager.instance.PlayClipAt(clientSC.staticSoundPNJ);
-            clientSC.Exit();
-            StartCoroutine(WaitForNewClient(.8f));
+            canBake = false;
+
+            Client clientSC = currentClient.GetComponent<Client>();
+            clientSC.Enter();
+            clientState = ClientState.Enter;
+
+            if (clientSC.staticPNJ)
+            {
+                yield return new WaitForSeconds(4);
+
+                if (clientSC.staticSoundPNJ != null) AudioManager.instance.PlayClipAt(clientSC.staticSoundPNJ);
+                clientSC.Exit();
+                StartCoroutine(WaitForNewClient(.8f));
+            }
+            else
+            {
+                yield return new WaitForSeconds(2.5f);
+
+                DialogSystem.Instance.StartDialog("", clientSC.initialTxt);
+                clientState = ClientState.FirstSpeak;
+                isSpeaking = true;
+
+                totalIngredients = 0;
+                ingredientCountTxt.text = totalIngredients + "/10";
+            }
         }
         else
         {
-            yield return new WaitForSeconds(2.5f);
-
-            DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.initialTxt);
-            clientState = ClientState.FirstSpeak;
-            isSpeaking = true;
-
-            totalIngredients = 0;
-            ingredientCountTxt.text = totalIngredients + "/10";
-        }        
+            print("You lost");
+        }
     }
 
     public GameObject SelectClient()
     {
+        if(PlayerReputation.Instance.reputation <= 0)
+        {
+            print("Reputation less to 0");
+            return null;
+        }
+
+
         List<GameObject> clientSelected = new List<GameObject>();
 
         for (int i = 0; i < clientsInGame.Count; i++)
@@ -104,6 +118,7 @@ public class LoopManager : MonoBehaviour
         GameObject clientSelect = clientSelected[Random.Range(0, clientSelected.Count)];
         clientSelect.GetComponent<Client>().wasAlreadySelected = true;
 
+        print(clientSelect.name);
         return clientSelect;
     }
 
@@ -151,7 +166,7 @@ public class LoopManager : MonoBehaviour
         {
             if (clientSC.spriteOK != null) clientSC.graphics.sprite = clientSC.spriteOK;
             if (clientSC.soundOK != null) AudioManager.instance.PlayClipAt(clientSC.soundOK);
-            DialogSystem.Instance.StartDialog("Ombre", clientSC.exitTxtOK);
+            DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtOK);
             isHappy = true;
             isSpeaking = true;
         }

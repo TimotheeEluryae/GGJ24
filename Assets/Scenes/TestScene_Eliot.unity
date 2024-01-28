@@ -1968,7 +1968,8 @@ PrefabInstance:
       propertyPath: continueButtonTxt
       value: 
       objectReference: {fileID: 3199464489899163258}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8770874188460271527, guid: 9d94cb6b6f01d2c4a83d76ab4d1f43b0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
