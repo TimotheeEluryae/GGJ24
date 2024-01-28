@@ -19,4 +19,4 @@ MonoBehaviour:
   butter: {x: 2, y: 3}
   sugaryThing: {x: 0, y: 0}
   sugar: {x: 0, y: 0}
-  yeast: {x: 1, y: 0}
+  yeast: {x: 1, y: 2}

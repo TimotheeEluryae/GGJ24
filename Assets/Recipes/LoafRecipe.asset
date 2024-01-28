@@ -17,6 +17,6 @@ MonoBehaviour:
   egg: {x: 1, y: 2}
   flour: {x: 0, y: 0}
   butter: {x: 1, y: 2}
-  sugaryThing: {x: 5, y: 6}
+  sugaryThing: {x: 0, y: 0}
   sugar: {x: 2, y: 3}
   yeast: {x: 0, y: 0}
