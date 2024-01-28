@@ -81,22 +81,16 @@ public class LoopManager : MonoBehaviour
 
     public GameObject SelectClient()
     {
-        List<GameObject> clientsSelected = new List<GameObject>();
+        List<GameObject> clientSelected = new List<GameObject>();
 
-        for (int i = 0; i < clientCanBeSelected.Count; i++)
+        for (int i = 0; i < clientsInGame.Count; i++)
         {
-            clientCanBeSelected[i].SetActive(false);
-            if (clientCanBeSelected[i].GetComponent<Client>().CanEnterTheShop()) clientsSelected.Add(clientCanBeSelected[i]);
+            clientsInGame[i].SetActive(false);
+
+            if (clientsInGame[i].GetComponent<Client>().CanEnterTheShop()) clientSelected.Add(clientsInGame[i]);
         }
 
-        if(clientsSelected.Count <= 0)
-        {
-
-        }
-
-        GameObject currentClient = clientsSelected[Random.Range(0, clientsSelected.Count)];
-        clientCanBeSelected.Remove(currentClient);
-        return currentClient;
+        return clientSelected[Random.Range(0, clientSelected.Count)];
     }
 
     public void AddEgg()=> AddIngredient(Ingredient.Egg);
