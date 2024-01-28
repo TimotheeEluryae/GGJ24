@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class LoopManager : MonoBehaviour
 {
@@ -48,7 +49,6 @@ public class LoopManager : MonoBehaviour
     {
         currentClient = SelectClient();
         currentClient.SetActive(true);
-        print("Client selected");
 
         canBake = false;
 
@@ -56,14 +56,24 @@ public class LoopManager : MonoBehaviour
         clientSC.Enter();
         clientState = ClientState.Enter;
 
-        yield return new WaitForSeconds(2.5f);
+        if (clientSC.staticPNJ)
+        {
+            yield return new WaitForSeconds(4);
 
-        DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.initialTxt);
-        clientState = ClientState.FirstSpeak;
-        isSpeaking = true;
+            if(clientSC.staticSoundPNJ != null) AudioManager.instance.PlayClipAt(clientSC.staticSoundPNJ);
+            clientSC.Exit();
+        }
+        else
+        {
+            yield return new WaitForSeconds(2.5f);
 
-        totalIngredients = 0;
-        ingredientCountTxt.text = totalIngredients + "/10";
+            DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.initialTxt);
+            clientState = ClientState.FirstSpeak;
+            isSpeaking = true;
+
+            totalIngredients = 0;
+            ingredientCountTxt.text = totalIngredients + "/10";
+        }        
     }
 
     public GameObject SelectClient()
@@ -122,12 +132,16 @@ public class LoopManager : MonoBehaviour
 
         if (currentClient.GetComponent<Client>().IsClientHappy(eggCount, flourCount, butterCount, sugaryThingCount, sugarCount, yeastCount))
         {
+            if (clientSC.spriteOK != null) clientSC.graphics.sprite = clientSC.spriteOK;
+            if (clientSC.soundOK != null) AudioManager.instance.PlayClipAt(clientSC.soundOK);
             DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtOK);
             isHappy = true;
             isSpeaking = true;
         }
         else
         {
+            if (clientSC.spriteNOK != null) clientSC.graphics.sprite = clientSC.spriteNOK;
+            if (clientSC.soundNOK != null) AudioManager.instance.PlayClipAt(clientSC.soundNOK);
             DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtNOK);
             isHappy = false;
             isSpeaking = true;
@@ -157,6 +171,7 @@ public class LoopManager : MonoBehaviour
                 clientState = ClientState.Waiting;
                 canBake = true;
                 break;
+
             case ClientState.LastSpeak:
                 clientState = ClientState.Leaving;
 
@@ -165,12 +180,13 @@ public class LoopManager : MonoBehaviour
                 if (isHappy)
                 {
                     PlayerReputation.Instance.AddReputation(clientSC.reputationToGive);
-                    clientSC.ExitHappy();
+                    
+                    clientSC.Exit();
                 }
                 else
                 {
                     PlayerReputation.Instance.RemoveReputation(clientSC.reputationToGive);
-                    clientSC.ExitSad();
+                    clientSC.Exit();
                 }
 
                 StartCoroutine(WaitForNewClient(0.8f));
