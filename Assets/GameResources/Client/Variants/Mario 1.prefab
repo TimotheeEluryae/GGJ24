@@ -114,12 +114,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
-      value: "Ce n\u2019est pas un mollusque de canelle ! Vraiment pas ! "
+      value: "Ce n\u2019est pas ce que je demandais ! Vraiment pas ! "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
       value: " Hello mon ami, quelqu\u2019un ici m\u2019a recommand\xE9 cet endroit,
-        elle a parl\xE9 de... De mollusque ?  "
+        elle a parl\xE9 de... De cannelle ?  "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

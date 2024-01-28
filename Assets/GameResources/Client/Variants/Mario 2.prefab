@@ -111,8 +111,8 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
       value: "Ho hoo ! C\u2019est parfait, en esp\xE9rant ne pas tomber malade avec
-        cela... Car e, grand quantit\xE9, la cannelle cause plaie, et augmente les
-        risques de cancer ! Let\u2019s a go ! "
+        cela... Car en grande quantit\xE9, la cannelle cause des plaies, et augmente
+        les risques de cancer ! Let\u2019s a go ! "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt

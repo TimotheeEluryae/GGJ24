@@ -114,13 +114,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
-      value: " Mais enfin s\u2019il vous pla\xEEt ?! \xCAtes- vous boulanger ou non
+      value: " Mais enfin s\u2019il vous pla\xEEt ?! \xCAtes-vous boulanger ou non
         ? J\u2019en ai pas l\u2019impression\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: "Bonjour, \xE7a m'int\xE9resserait bien un truc pour donner au gars,
-        on a d\xE9cid\xE9 de le nommer employ\xE9 du mois, il fait du super bon boulot\u2026"
+      value: "Bonjour, \xE7a m'int\xE9resserait bien un truc pour donner au gars
+        dans la cabine l\xE0 bas, on a d\xE9cid\xE9 de le nommer employ\xE9 du mois,
+        il fait du super bon boulot\u2026"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

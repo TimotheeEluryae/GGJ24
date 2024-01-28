@@ -110,12 +110,12 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 4756b18daab797a45a1b90a36a2e0169, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: "Mais dites moi ce pain est si bon que mes cheveux pourraient repousser
+      value: "Mais dites moi, ce pain est si bon que mes cheveux pourraient repousser
         pour aussit\xF4t retomber !"
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
-      value: "\u2026"
+      value: "\u2026...................."
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt

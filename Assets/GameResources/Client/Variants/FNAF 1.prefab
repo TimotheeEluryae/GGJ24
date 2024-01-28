@@ -110,16 +110,16 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: af228fbe90aa4ae4385360220cc752de, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: " Incroyable, on esp\xE8re que \xE7a va lui plaire a m\u2019sieur Ness. "
+      value: " Incroyable, on esp\xE8re que \xE7a va lui plaire a M'sieur Ness. "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
-      value: "Ah non monsieur, \xE7a c\u2019est tout sauf ce qu\u2019on demandait\u2026
+      value: "Ah non Monsieur, \xE7a c\u2019est tout sauf ce qu\u2019on demandait\u2026
         Essayez de faire mieux pour les autres au moins\u2026 "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: "Ecoute je comprends pas pourquoi mais a chaque fois qu\u2019on essaye
+      value: "Ecoute je comprends pas pourquoi mais \xE0 chaque fois qu\u2019on essaye
         d\u2019aller voir le coll\xE8gue il s\u2019\xE9vanouit, t\u2019aurais pas
         un truc pour le rassurer ? "
       objectReference: {fileID: 0}

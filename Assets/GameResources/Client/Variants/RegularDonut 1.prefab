@@ -110,15 +110,18 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 57cf5df3c8eff7f4aa75588dada8939a, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: 'Merci beaucoup ! Je reviendrai sans aucun doute ! '
+      value: "Alors \xE7a c\u2019est super, je lui parlerais personnellement de votre
+        boulangerie. "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
-      value: 'Nooon, moi qui voulait toujours avoir un grand trou ! '
+      value: "Pas s\xFBr que Mr.Simpson aimeait bien cela s'il venait vous voir,
+        votre r\xE9putation vous surestime\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: "Hum salut euh, un donut s\u2019il vous pla\xEEt\u2026 "
+      value: 'Bonjour, est-ce-que je pourrais avoir un des ces trucs que Mr.Simpson
+        aime tant ? '
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[1].txt

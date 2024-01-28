@@ -138,8 +138,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: 'Ils ont des chapeaux ronds ! Vive la bretagneee ! Ils ont des *** en
-        plomb, vive les bretons ! '
+      value: 'Ils ont des chapeaux ronds ! Vive la bretagneee ! Ils ont des ********
+        en plomb, vive les bretons ! '
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[1].txt

@@ -122,7 +122,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 57cf5df3c8eff7f4aa75588dada8939a, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: "Au sucre, la cause et la solution de tous nos probl\xE8mes !"
+      value: "Merci, \xE7a c\u2019est du donut sucr\xE9 au sucre ! "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
@@ -132,7 +132,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: " Bon, je veux \xE9touffer ma tristesse dans plus que de la duff ! "
+      value: "Oh euuuh, qu\u2019est ce que je veux d\xE9j\xE0, ah oui, un dessert
+        siouplait, et l\xE9sinez pas sur le gla\xE7age hehehe !\_"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 1ed5ecf13b23d5046bc8003b04190a8d, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: "Merci\u2026 J\u2019y retourne, je passe par la ven\u2026 Le couloir\u2026 "
+      value: "Merci\u2026 J\u2019y retourne, je passe par la vent-\u2026 Le couloir\u2026 "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[1].txt
@@ -129,7 +129,7 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[0].txt
       value: "C\u2019est votre conception du sucr\xE9 ? Pour moi c\u2019est un tentative
-        d\u2019assassinat dans la cafetaria\u2026 Flagrant et vain. "
+        d\u2019assassinat dans la caf\xE9taria\u2026 Flagrant et vain. "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtNOK.Array.data[1].txt

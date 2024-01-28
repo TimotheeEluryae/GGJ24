@@ -131,7 +131,7 @@ PrefabInstance:
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
       value: "Heeey, filez-moi mon dessert pr\xE9f\xE9r\xE9\u2026 J\u2019ai du venir
-        directement d\u2019am\xE9rique pour venir chez vous "
+        directement d\u2019Am\xE9rique pour venir chez vous "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
