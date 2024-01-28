@@ -48,10 +48,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1399934812597406406, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2215198940741148068, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
     - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Name
       value: PaindEpice
       objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundOK
+      value: 
+      objectReference: {fileID: 8300000, guid: 007bf41cd6c820645a7ba7d8d5dda26d, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundNOK
+      value: 
+      objectReference: {fileID: 8300000, guid: 992190351d741ef4f84ced6599eba053, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteOK
+      value: 
+      objectReference: {fileID: 9117535678400504378, guid: 13e8ee0bf8a59494f98932a283477b96, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteNOK
+      value: 
+      objectReference: {fileID: 8564843010584167440, guid: d005300d2479183449bd243df19db888, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
       value: Paindepice
@@ -61,12 +81,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a505408dfbbe2e6469a212bfa9e9dc34, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationToGive
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.x
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.y
-      value: 25
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.size
@@ -78,11 +102,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: Super c'est bien ce que je veux
+      value: "Bravo pour cette cr\xE9ation culinaire, vous avez vraiment le coup
+        de main ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtNOK.Array.data[0].txt
+      value: "AAAAH \xC7A FAIT HORRIBLEMENT MAL AAAAAH ! "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: blalbalvlz je suis the paindepice
+      value: "Bonjour j\u2019aimerais un pain d\u2019\xE9pice  "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

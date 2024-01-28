@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1399934812597406406, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2215198940741148068, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
     - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Name
       value: HomerSimpson
@@ -65,6 +69,22 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundOK
+      value: 
+      objectReference: {fileID: 8300000, guid: cab2b34d7ab6bf643aa0705dd288bcaa, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundNOK
+      value: 
+      objectReference: {fileID: 8300000, guid: 992190351d741ef4f84ced6599eba053, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteOK
+      value: 
+      objectReference: {fileID: -7761944182437040020, guid: eaf5a9943b067c44083a9aeec809f737, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteNOK
+      value: 
+      objectReference: {fileID: 7832865082290988068, guid: bfea81a3b4896564bbf86394e93121ac, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
       value: Homer Simpson
       objectReference: {fileID: 0}
@@ -73,12 +93,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3924611b1199cfa40abb0c786bdad121, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationToGive
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.x
-      value: 10
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.y
-      value: 20
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.size
@@ -90,11 +114,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: Super c'est bien ce que je veux
+      value: "Merci, \xE7a c\u2019est du donut sucr\xE9 au sucre ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtNOK.Array.data[0].txt
+      value: ' Dough ! '
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: "donuts sucr\xE9 au sucre"
+      value: "Heeey, filez-moi mon dessert pr\xE9f\xE9r\xE9\u2026 J\u2019ai du venir
+        directement d\u2019am\xE9rique pour venir chez vous "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

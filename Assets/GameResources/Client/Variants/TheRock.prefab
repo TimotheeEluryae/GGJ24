@@ -48,10 +48,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1399934812597406406, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2215198940741148068, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
     - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: m_Name
       value: TheRock
       objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundOK
+      value: 
+      objectReference: {fileID: 8300000, guid: 82b67604762d93043b041e026c642895, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundNOK
+      value: 
+      objectReference: {fileID: 8300000, guid: 82b67604762d93043b041e026c642895, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteOK
+      value: 
+      objectReference: {fileID: 2687363057602563515, guid: 576db615056dd3b4a9abc26d70e4fc0d, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteNOK
+      value: 
+      objectReference: {fileID: 2687363057602563515, guid: 576db615056dd3b4a9abc26d70e4fc0d, type: 3}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: clientName
       value: The rock
@@ -61,12 +81,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 767b95e097f70d447b5bbe0bec21f6f0, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
-      propertyPath: reputationMinMax.x
+      propertyPath: reputationToGive
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationMinMax.y
-      value: 30
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.size
@@ -78,11 +102,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: exitTxtOK.Array.data[0].txt
-      value: Super c'est bien ce que je veux
+      value: "C\u2019est perfect pour mon petit triple marathon quotidien infus\xE9
+        \xE0 la cr\xE9atine\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtNOK.Array.data[0].txt
+      value: "Eh man, je t\u2019ai demand\xE9 du pain, pas un vieux truc nul, comment
+        veux tu que je sois actif ? Je vais finir comme Van-Damme si \xE7a continue\u2026 "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[0].txt
-      value: blalbalvlz je suis the rock
+      value: " Eh man, j\u2018ai need d\u2019un truc super bon tu vois ? Un truc
+        simple et hyper prot\xE9in\xE9 dude, du pain du bon pain quoi duude ! "
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: initialTxt.Array.data[1].txt
