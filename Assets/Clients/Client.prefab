@@ -58,7 +58,7 @@ MonoBehaviour:
   - txt: Nan je voulais pas ca
   spriteOK: {fileID: 0}
   spriteNOK: {fileID: 0}
-  reputationToGive: 5
+  reputationToGive: 10
   staticPNJ: 0
   staticSoundPNJ: {fileID: 0}
   reputationMinMax: {x: 0, y: 0}

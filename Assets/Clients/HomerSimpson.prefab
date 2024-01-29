@@ -94,7 +94,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 3924611b1199cfa40abb0c786bdad121, type: 2}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: reputationToGive
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
       propertyPath: recipes.Array.size
