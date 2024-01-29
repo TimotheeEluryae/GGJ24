@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BrownieRecipe
   m_EditorClassIdentifier: 
   recipeName: Brownie
-  description: dexcription test blablabla
+  description: Un chouia de farine, 3 beurres, un peu de sucres
   egg: {x: 0, y: 0}
   flour: {x: 1, y: 2}
   butter: {x: 3, y: 4}

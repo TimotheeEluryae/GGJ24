@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c018f450a78f5fa43921ae156ec08fd9, type: 3}
   m_Name: GingerBreadRecipe
   m_EditorClassIdentifier: 
-  recipeName: Ginger Bread
-  description: dexcription test blablabla
+  recipeName: "Pain d'\xE9pices"
+  description: 1 farine, un max de sucrerie, 3 sucres
   egg: {x: 0, y: 0}
   flour: {x: 1, y: 2}
   butter: {x: 0, y: 0}

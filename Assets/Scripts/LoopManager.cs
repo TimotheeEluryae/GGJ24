@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
 public class LoopManager : MonoBehaviour
 {
     public List<GameObject> everyClientPrefabs = new List<GameObject>();
     List<GameObject> clientsInGame = new List<GameObject>();
     GameObject currentClient;
+
+    public AudioClip buttonSound;
 
     public TMP_Text ingredientCountTxt;
 
@@ -60,9 +61,10 @@ public class LoopManager : MonoBehaviour
 
             if (clientSC.staticPNJ)
             {
-                yield return new WaitForSeconds(4);
+                yield return new WaitForSeconds(1.5f);
 
                 if (clientSC.staticSoundPNJ != null) AudioManager2.instance.PlayClipAt(clientSC.staticSoundPNJ);
+                yield return new WaitForSeconds(2.5f);
                 clientSC.Exit();
                 StartCoroutine(WaitForNewClient(.8f));
             }
@@ -132,6 +134,8 @@ public class LoopManager : MonoBehaviour
     {
         if (isSpeaking) return;
 
+        AudioManager2.instance.PlayClipAt(buttonSound);
+
         Debug.Log("trying to add ingredients");
         if (totalIngredients < maxIngredients)
         {
@@ -154,6 +158,8 @@ public class LoopManager : MonoBehaviour
     {
         if(isSpeaking || !canBake)
             return;
+
+        AudioManager2.instance.PlayClipAt(buttonSound);
 
         canBake = false;
 
@@ -201,6 +207,12 @@ public class LoopManager : MonoBehaviour
         {
             case ClientState.FirstSpeak:
                 clientState = ClientState.Waiting;
+                eggCount = 0;
+                flourCount = 0;
+                butterCount = 0;
+                sugaryThingCount = 0;
+                sugarCount = 0;
+                yeastCount = 0;
                 canBake = true;
                 break;
 

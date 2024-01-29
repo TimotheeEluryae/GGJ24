@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TestScene_Tristan.unity
-    guid: 28ed2c29ead8ca9419087dceabde451b
+    path: Assets/Scenes/Menu.unity
+    guid: c4e40844dbc0f4f488ac79adb76e7a68
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: ae1600113ddfe9d49a90d2a07092133a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

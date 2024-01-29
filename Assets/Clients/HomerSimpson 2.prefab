@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5203140591157588237
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878994898064525786, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399934812597406406, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 089c80890d6f2bb45978e128f7377442, type: 3}
+    - target: {fileID: 2987338781742070429, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: m_Name
+      value: HomerSimpson 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623835769877833286, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: clientParameters
+      value: 
+      objectReference: {fileID: 11400000, guid: 3924611b1199cfa40abb0c786bdad121, type: 2}
+    - target: {fileID: 6623835769877833286, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: recipes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623835769877833286, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundOK
+      value: 
+      objectReference: {fileID: 8300000, guid: cab2b34d7ab6bf643aa0705dd288bcaa, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: soundNOK
+      value: 
+      objectReference: {fileID: 8300000, guid: 992190351d741ef4f84ced6599eba053, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteOK
+      value: 
+      objectReference: {fileID: 21300000, guid: eaf5a9943b067c44083a9aeec809f737, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: spriteNOK
+      value: 
+      objectReference: {fileID: 21300000, guid: bfea81a3b4896564bbf86394e93121ac, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: clientName
+      value: Homer Simpson
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: clientParameters
+      value: 
+      objectReference: {fileID: 11400000, guid: 3924611b1199cfa40abb0c786bdad121, type: 2}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationToGive
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: recipes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: reputationMinMax.y
+      value: 1020
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: effectOK.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: effectNOK.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtOK.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'recipes.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 57cf5df3c8eff7f4aa75588dada8939a, type: 2}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectOK.Array.data[0]'
+      value: 
+      objectReference: {fileID: 6326231466481203021, guid: 4e6daed6e25a0314694edf60a43b4b4b, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectOK.Array.data[1]'
+      value: 
+      objectReference: {fileID: -6859001260349468157, guid: 4e6daed6e25a0314694edf60a43b4b4b, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectOK.Array.data[2]'
+      value: 
+      objectReference: {fileID: 3246874405919910853, guid: 80fcb47f79c2b0b46a96a117ed701afe, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectNOK.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4218199000272511623, guid: b379e91358ed099478278f427361a796, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectNOK.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1426245910902499433, guid: fc7b3eb7cc1906547a7f4b6f54948f19, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: 'effectNOK.Array.data[2]'
+      value: 
+      objectReference: {fileID: 4920269339252246039, guid: 3f157a23f5f089f418aed316febf9bf3, type: 3}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtOK.Array.data[0].txt
+      value: "Merci, \xE7a c\u2019est du donut sucr\xE9 au sucre ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: exitTxtNOK.Array.data[0].txt
+      value: "Ce truc c\u2019est comme family guy, le vrai mais en moins bien, avec
+        plus de budget, et aussi ils sont pas jaunes ! Et, et\u2026 Pinaise ou j\u2019en
+        \xE9tais moi d\xE9j\xE0 ? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749060661079990949, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
+      propertyPath: initialTxt.Array.data[0].txt
+      value: "Oh euuuh, qu\u2019est ce que je veux d\xE9j\xE0, ah oui, un dessert
+        siouplait, et l\xE9sinez pas sur le gla\xE7age hehehe !\_"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6fb22ea3711600c40b3d8f6a8e691371, type: 3}
