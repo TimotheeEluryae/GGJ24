@@ -27,6 +27,7 @@ public class UIManager : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) OpenCloseSettings();
+        if (Input.GetKeyDown(KeyCode.Tab)) OpenCloseRecipe();
     }
     public void OpenCloseSettings()
     {
@@ -71,8 +72,12 @@ public class UIManager : MonoBehaviour
     }
     public void OpenCloseRecipe()
     {
-        recipeIsOpen = !recipeIsOpen;
-        recipePanelAnimator.SetBool("IsOpen", recipeIsOpen);
+        if(StaticVariable.canUseShortkey) 
+        {
+            recipeIsOpen = !recipeIsOpen;
+            recipePanelAnimator.SetBool("IsOpen", recipeIsOpen);
+
+        }
     }
     public void BackToMenu()
     {

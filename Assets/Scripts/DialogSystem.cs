@@ -52,6 +52,7 @@ public class DialogSystem : MonoBehaviour
             if (currentDialogIndex >= currentDialogs.Count)
             {
                 EndDialog();
+                StaticVariable.canUseShortkey = true;
                 return;
             }
             clientSpeakingTxt.text = "";
