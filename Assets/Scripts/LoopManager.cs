@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
 public class LoopManager : MonoBehaviour
 {
@@ -44,6 +45,37 @@ public class LoopManager : MonoBehaviour
         }
 
         StartCoroutine(StartClientInteraction());
+    }
+        
+    private void  Update() 
+    { 
+    if (Input.GetKeyDown(KeyCode.Alpha1) && StaticVariable.canUseShortkey)
+     {
+      AddEgg();
+     }
+        if (Input.GetKeyDown(KeyCode.Alpha2) && StaticVariable.canUseShortkey)
+        {
+            AddButter();
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3) && StaticVariable.canUseShortkey)
+        {
+            AddSugar();
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4) && StaticVariable.canUseShortkey)
+        {
+            AddFlour();
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5) && StaticVariable.canUseShortkey)
+        {
+            AddSugaryThing();
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha6) && StaticVariable.canUseShortkey)
+        {
+            AddYeast();
+        }
+
+
+
     }
 
     IEnumerator StartClientInteraction()
@@ -168,6 +200,7 @@ public class LoopManager : MonoBehaviour
 
         clientState = ClientState.LastSpeak;
 
+
         if (currentClient.GetComponent<Client>().IsClientHappy(eggCount, flourCount, butterCount, sugaryThingCount, sugarCount, yeastCount))
         {
             if (clientSC.spriteOK != null) clientSC.graphics.sprite = clientSC.spriteOK;
@@ -175,6 +208,7 @@ public class LoopManager : MonoBehaviour
             DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtOK);
             isHappy = true;
             isSpeaking = true;
+            StaticVariable.canUseShortkey = false;
         }
         else
         {
@@ -183,6 +217,7 @@ public class LoopManager : MonoBehaviour
             DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtNOK);
             isHappy = false;
             isSpeaking = true;
+            StaticVariable.canUseShortkey = false;
         }
     }
 
