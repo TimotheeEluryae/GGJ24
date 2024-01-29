@@ -74,6 +74,11 @@ public class LoopManager : MonoBehaviour
             AddYeast();
         }
 
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            CraftRecipe();
+
+        }
 
 
     }
@@ -190,7 +195,7 @@ public class LoopManager : MonoBehaviour
     {
         if(isSpeaking || !canBake)
             return;
-
+        StaticVariable.canUseShortkey = false;
         AudioManager2.instance.PlayClipAt(buttonSound);
 
         canBake = false;
@@ -208,7 +213,7 @@ public class LoopManager : MonoBehaviour
             DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtOK);
             isHappy = true;
             isSpeaking = true;
-            StaticVariable.canUseShortkey = false;
+
         }
         else
         {
@@ -217,7 +222,7 @@ public class LoopManager : MonoBehaviour
             DialogSystem.Instance.StartDialog(clientSC.clientName, clientSC.exitTxtNOK);
             isHappy = false;
             isSpeaking = true;
-            StaticVariable.canUseShortkey = false;
+
         }
     }
 
@@ -249,6 +254,7 @@ public class LoopManager : MonoBehaviour
                 sugarCount = 0;
                 yeastCount = 0;
                 canBake = true;
+
                 break;
 
             case ClientState.LastSpeak:
@@ -269,6 +275,7 @@ public class LoopManager : MonoBehaviour
                 }
 
                 StartCoroutine(WaitForNewClient(0.8f));
+                StaticVariable.canUseShortkey = false;
                 break;
 
         }

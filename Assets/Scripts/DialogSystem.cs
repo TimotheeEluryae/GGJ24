@@ -27,6 +27,7 @@ public class DialogSystem : MonoBehaviour
 
     public void StartDialog(string clientName, List<Dialog> dialogs)
     {
+        StaticVariable.canUseShortkey = false;
         continueButton.SetActive(true);
         currentDialogs = dialogs;
         clientNameTxt.text = clientName;
